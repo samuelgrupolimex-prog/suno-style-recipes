@@ -1,0 +1,58 @@
+name: Sync catalogue
+
+# Pulls the full CC0 catalogue of documented styles from the public MUSAI
+# endpoint and commits it, so the published files never drift from source.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 7 * * 1"
+
+permissions:
+  contents: write
+
+env:
+  ENDPOINT: "https://wugjfwatnlchlrajryqs.supabase.co/functions/v1/musai-recetas-publicas"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch styles.csv
+        run: |
+          curl -fsSL "$ENDPOINT?f=csv&limit=1000" -o styles.csv
+          rows=$(($(wc -l < styles.csv) - 1))
+          echo "Fetched $rows styles."
+          test "$rows" -ge 500
+          git add styles.csv
+          git diff --staged --quiet || git commit -m "Full catalogue: $rows styles"
+
+      - name: Build STYLES.md
+        run: |
+          rows=$(($(wc -l < styles.csv) - 1))
+          curl -fsSL "$ENDPOINT?f=md&limit=1000" -o table.md
+          cat > STYLES.md <<EOF
+          # Every documented style ($rows)
+
+          One row per style: the style prompt, the tempo, the two Suno sliders that
+          change the result most, and a link to the full page for that style.
+
+          Public domain (CC0 1.0). Copy it, fork it, ship it, no attribution required.
+          Machine-readable copy of this same table, plus a canonical song structure
+          column: [styles.csv](styles.csv).
+
+          EOF
+          cat table.md >> STYLES.md
+          rm table.md
+          git add STYLES.md
+          git diff --staged --quiet || git commit -m "Add STYLES.md: full $rows-style table in Markdown"
+
+      - name: Push
+        run: git push
