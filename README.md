@@ -6,6 +6,8 @@ These are extracted from a catalogue of 564 documented styles. Each style also h
 
 **Disclosure:** I built and maintain the catalogue these come from. It is a paid product; this table is not — copy it, fork it, use it.
 
+The table gives you the sound. The section "What the numbers don't tell you" gives you the part that decides whether the lyric works — one specific writing problem per style.
+
 ---
 
 ## How to use the three settings
@@ -93,6 +95,58 @@ The pattern worth noticing: **weirdness and style influence move independently.*
 - **Lowest weirdness:** Bolero Clásico (12) · Cumbia Norteña (12) · Bachata Sensual (15) · Doo-Wop (16) — ceremonial and traditional genres punish deviation
 - **Highest weirdness:** Breakcore (70) · Sound Collage (70) · Hyperpop (60) · Free Jazz (60) · Digicore (60)
 - **Highest style influence:** Operatic Aria (99) · Bolero Clásico (99) · Cumbia Norteña (97) · Qawwali (97) · Heavy Metal (97) · Power Ballad (97)
+
+## What the numbers don't tell you
+
+The three settings get you the sound. They don't get you the lyric — and the lyric is where most AI songs fall apart, because the model will happily write a technically correct chorus that any genre could have produced.
+
+Each style below has one specific writing problem that the settings can't solve. One line each, taken from the craft notes on the full pages.
+
+- **Ambient Techno** — That is the surface, and in a genre where almost nothing happens, the surface is almost everything visible and almost nothing that matters. [Full craft note →](https://musaisong.app/en/style/ambient-techno)
+- **Bachata Sensual** — In bachata sensual the lyric walks a ledge: one centimetre too far and it's vulgar, one too short and it's any ballad. [Full craft note →](https://musaisong.app/en/style/bachata-sensual)
+- **Big Room EDM** — How to keep a chant from sounding hollow when repeated a thousand times, and how to pace the synth tension so the drop feels like physical release rather than flat noise. [Full craft note →](https://musaisong.app/en/style/big-room-edm)
+- **Black Metal** — How to sustain lyrical tremolo without monotony, or how to write hostile wilderness so it sounds like annihilation rather than a postcard. [Full craft note →](https://musaisong.app/en/style/black-metal)
+- **Bolero Clásico** — How to write a bolero today without sounding like an imitation: which exact word fits a line so slow every syllable is heard whole, how much silence a phrase carries before losing the listener, how to declare without adjectives. [Full craft note →](https://musaisong.app/en/style/bolero-clasico)
+- **Chiptune Experimental** — How to make the obsessive repetition of a square wave suffocating rather than monotonous, and where a glitch stops being a digital gimmick and becomes an open wound. [Full craft note →](https://musaisong.app/en/style/chiptune-experimental)
+- **City Pop** — The precise angle of detachment: how many degrees of cool keep sophistication from sounding like disdain, and how to make an upbeat lyric maintain an edge without slipping into generic cheer. [Full craft note →](https://musaisong.app/en/style/city-pop)
+- **Cloud Rap** — How much can be left unfinished before it stops meaning anything, how to write a line so it sounds dragged rather than careless, when Spanglish is natural and when it's costume. [Full craft note →](https://musaisong.app/en/style/cloud-rap)
+- **Cumbia Norteña** — In cumbia norteña the lyric is harder than it looks, because a badly written party sounds like a beer advert. [Full craft note →](https://musaisong.app/en/style/cumbia-nortena)
+- **Dark Ambient** — How to sustain emotional tension for four minutes without a single chord change, and how to keep spatial descriptions physical rather than literary. [Full craft note →](https://musaisong.app/en/style/dark-ambient)
+- **Darkwave / EBM** — Keeping the coldness from sounding like a prop and ensuring the hypnotic repetition never flatlines into boredom. [Full craft note →](https://musaisong.app/en/style/darkwave-ebm)
+- **Deep House** — Two writing pitfalls this genre punishes instantly: sliding into cheap sentimentality when describing the night, or breaking the trance with glaring rhymes that shatter the hypnotic loop. [Full craft note →](https://musaisong.app/en/style/deep-house)
+- **Digicore** — How to make digital distortion sound like raw vulnerability rather than a cheap preset, and how to structure lyrics so that screen terminology does not drown out the emotional punch. [Full craft note →](https://musaisong.app/en/style/digicore)
+- **Doo-Wop** — How to make innocence sound true instead of like a school-play costume, and how to balance the exact breath between vocal harmonies so the lyric never loses the rhythm of sneakers on asphalt. [Full craft note →](https://musaisong.app/en/style/doo-wop)
+- **Dreamgaze** — The hard part isn't the sound: it's writing a lyric that holds up when the words are going to arrive half-veiled. [Full craft note →](https://musaisong.app/en/style/dreamgaze)
+- **Drill** — How many objects per verse before the list loses tension, where the silence goes that forces the listener to fill in, how to deliver a hyperbole in a flat tone without it sounding like a joke. [Full craft note →](https://musaisong.app/en/style/drill)
+- **Dubstep** — How to stretch a vowel across a wobble without sounding ridiculous against the heavy sub-bass, and how to calibrate the exact silence before the drop so the pause hurts more than the blow. [Full craft note →](https://musaisong.app/en/style/dubstep)
+- **Emo Anthem** — How to maintain visceral tension without sliding into cheap self-pity, and exactly where to place the vocal crack so it never sounds like acting. [Full craft note →](https://musaisong.app/en/style/emo-anthem)
+- **Epic Hybrid (Trailer)** — Preventing grandiloquence from collapsing into empty noise and keeping the orchestra from drowning out the truth of your story. [Full craft note →](https://musaisong.app/en/style/epic-hybrid-trailer)
+- **Eurodance** — How to calibrate syncopated rap so it never feels like filler, and how to keep the sweet vocals from slipping into unbearable cheese. [Full craft note →](https://musaisong.app/en/style/eurodance)
+- **Folk Anthem** — Keeping the lyrics from sounding like a summer camp manual that breeds cynicism, and making sure the communal chorus grows from a concrete experience rather than a marketing slogan. [Full craft note →](https://musaisong.app/en/style/folk-anthem)
+- **Free Jazz** — Translating reckless acoustic chaos into sharp text without sliding into gibberish, and sustaining visceral tension across a song without relying on regular meters or stock rhymes. [Full craft note →](https://musaisong.app/en/style/free-jazz)
+- **Future Bass** — How to keep euphoria from sounding like a self-help manual, and how to prevent chromatic synesthesia from falling into advertising clichés. [Full craft note →](https://musaisong.app/en/style/future-bass)
+- **Gospel-Pop Ballad** — How far a vowel can stretch before sentimentality turns into formula, and how to build the harmonic ascent so the choir sounds like a true revelation instead of filler. [Full craft note →](https://musaisong.app/en/style/gospel-pop-ballad)
+- **Hyperpop** — Where to break a line so the glitch means something, how much sweetness a verse carries before it cloys, how to write euphoria with sadness underneath without explaining it. [Full craft note →](https://musaisong.app/en/style/hyperpop)
+- **Indie Anthem** — How to keep the chorus from sounding like empty yelling instead of actual release, and where to drop the silence right before the build so the guitar cuts through cleanly. [Full craft note →](https://musaisong.app/en/style/indie-anthem)
+- **Jangle Pop** — How to make a melody sound luminous without falling into advertising clichés, and how to pack a piercing nostalgia into verses so short they feel ready to snap. [Full craft note →](https://musaisong.app/en/style/jangle-pop)
+- **Jazz Fusion** — How to keep technical virtuosity from drowning out human emotion, and how to make a thirteen-chord progression sound like raw urgency rather than a music theory lecture. [Full craft note →](https://musaisong.app/en/style/jazz-fusion)
+- **K-Pop** — How to pull off five gear shifts in three minutes without losing the thread, and how to make the chorus explode upward when the listener already thought the volume ceiling had been reached. [Full craft note →](https://musaisong.app/en/style/k-pop)
+- **Metalcore** — How to keep the melodic chorus from sounding like soft pop after a blast of blind violence, and how to make the breakdown hit like a blunt object without falling into empty clichés. [Full craft note →](https://musaisong.app/en/style/metalcore)
+- **Musical Theatre Ballad** — How to keep high drama from tipping into parody when the brass swells, and how to pace the breath so the jump from spoken verse to unyielding belt feels earned rather than forced. [Full craft note →](https://musaisong.app/en/style/musical-theatre-ballad)
+- **Neo-Soul** — How to stretch a vowel with a melisma without sounding like empty ornamentation, and how to name routine without falling into boredom. [Full craft note →](https://musaisong.app/en/style/neo-soul)
+- **Nightcore** — How to modulate vocal frequencies at that speed without sacrificing clarity, and the exact craft required to keep the euphoria from sounding hollow or forced. [Full craft note →](https://musaisong.app/en/style/nightcore)
+- **Phonk** — How often a chop repeats before it hypnotises rather than bores, how to write menace without naming it, when the car stops being a car and becomes the body of whoever is singing. [Full craft note →](https://musaisong.app/en/style/phonk)
+- **Piano Ballad** — Precisely how many seconds of silence to leave before the listener feels the song is dying, and the exact weight of a high-pitched word so it avoids cheap melodrama. [Full craft note →](https://musaisong.app/en/style/piano-ballad)
+- **Power Ballad** — How tension is held across the first sixteen bars without falling into early screaming, and the exact distance between a bedroom confession and the chorus that shakes the top balcony. [Full craft note →](https://musaisong.app/en/style/power-ballad)
+- **Qawwali** — How to stretch a single phrase for ten minutes without losing the listener, and how to make a vocal peak sound like revelation instead of shouting. [Full craft note →](https://musaisong.app/en/style/qawwali)
+- **R&B Ballad** — Timing the vocal runs precisely where plain words run out of weight, and turning everyday objects into dramatic landmarks without turning melodramatic. [Full craft note →](https://musaisong.app/en/style/rnb-ballad)
+- **Reggaetón Romántico** — How to make a love lyric sound like the street instead of a cheap postcard, and how to write melodies that carry pitch correction without losing the weight of everyday speech. [Full craft note →](https://musaisong.app/en/style/reggaeton-romantico)
+- **Shibuya-kei** — How to make a verse speak of a breakup without using a single sad word, and how to insert a reference to an everyday object without sounding like cheap advertising. [Full craft note →](https://musaisong.app/en/style/shibuya-kei)
+- **Shoegaze** — How to maintain lyrical tension when the vocal is buried so deep it loses its anchor, and how to prevent a pile-up of melancholic imagery from turning into a flat postcard. [Full craft note →](https://musaisong.app/en/style/shoegaze)
+- **Soul Ballad** — How to keep pain from sounding like cheap melodrama, and how to make a mundane object — a glass, a chair, a coat — carry the full fury of a loss without sliding into sentimentality. [Full craft note →](https://musaisong.app/en/style/soul-ballad)
+- **Techno** — How to keep lines from sounding like empty political slogans when you aim for industrial detachment, and how to sustain tension across a repetitive text loop without sliding into lazy phrasing. [Full craft note →](https://musaisong.app/en/style/techno)
+- **Trap** — How many words carry weight per verse before coldness becomes pose, on which exact line the mask is allowed to slip, how to name power without explaining it. [Full craft note →](https://musaisong.app/en/style/trap)
+- **Vaporwave** — How a standard time signature is warped so that time itself appears to dissolve, and the precise distance required to place a vocal so it sounds like a ghost behind a tiled wall. [Full craft note →](https://musaisong.app/en/style/vaporwave)
 
 ## By family
 
