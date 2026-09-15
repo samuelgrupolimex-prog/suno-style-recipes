@@ -3,14 +3,13 @@
 One row per style: the style prompt, the tempo, the two Suno sliders that
 change the result most, and a link to the full page for that style.
 
-Nine styles carry no BPM at all. They are free-time: Dark Ambient / Sound Art, Drone
-Experimental, Electroacustica, Musica Aleatoria, Musique Concrete, Noise, Power
-Electronics, Senal Sin Nombre and Sound Collage. Their tempo cell reads a dash, not a
-zero — setting a BPM on them does not make them faster, it makes them wrong.
+9 styles carry no BPM at all. They are free-time, and their tempo cell
+reads a dash rather than a zero: setting a BPM on them does not make them
+faster, it makes them wrong.
 
 Public domain (CC0 1.0). Copy it, fork it, ship it, no attribution required.
-Machine-readable copy of this same table, plus a canonical song structure
-column: [styles.csv](styles.csv).
+The same data as CSV, JSON and Parquet, plus a canonical song structure
+column: [styles.csv](styles.csv) - [styles.json](styles.json) - [styles.parquet](styles.parquet).
 
 | Style | Family | BPM | Weirdness | Style influence | Style prompt | Full page |
 |---|---|---|---|---|---|---|
@@ -160,7 +159,7 @@ column: [styles.csv](styles.csv).
 | Dance-Punk | Electric Roads | 128 | 30 | 90 | Dance-Punk, angular funky guitars, driving disco-punk bass, four-on-the-floor drums, cool shouted vocals, punk-funk dance, edgy and danceable | https://musaisong.app/en/style/dance-punk |
 | Dancehall | The Party That Never Ends | 100 | 20 | 94 | Dancehall, digital riddim, heavy bass, patois toasting vocals, catchy melodic hooks, Jamaican dance music, bouncy and hot | https://musaisong.app/en/style/dancehall |
 | Dark Ambient | Breathing Silence | 55 | 50 | 86 | Dark Ambient, deep cavernous drones, subtle ominous textures, distant resonances, vast shadowy space, dark ambient, immersive and mysterious | https://musaisong.app/en/style/dark-ambient |
-| Dark Ambient / Sound Art | The Edge of the Map | — | 66 | 91 | Dark Ambient, ominous low drones, cavernous reverb, distant metallic echoes, unsettling textures, sound-art atmosphere, eerie and immersive | https://musaisong.app/en/style/dark-ambient-sound-art |
+| Dark Ambient / Sound Art | The Edge of the Map | - | 66 | 91 | Dark Ambient, ominous low drones, cavernous reverb, distant metallic echoes, unsettling textures, sound-art atmosphere, eerie and immersive | https://musaisong.app/en/style/dark-ambient-sound-art |
 | Darkgaze | Fog and Nostalgia | 105 | 40 | 89 | Darkgaze, dark heavy reverb guitars, dense melancholic wall of sound, distant haunting vocals, gloomy shoegaze, dark and overwhelming | https://musaisong.app/en/style/darkgaze |
 | Darkwave / EBM | Machines That Dream | 130 | 32 | 90 | Darkwave EBM, pulsing electronic body-music bass, cold drum machine, dark distorted synths, deep brooding vocals, gothic electronic, dark and driving | https://musaisong.app/en/style/darkwave-ebm |
 | Death Metal | Storm and Steel | 200 | 30 | 94 | Death Metal, heavy down-tuned riffs, blast beats, guttural growls, technical brutal drumming, extreme metal, crushing and powerful | https://musaisong.app/en/style/death-metal |
@@ -189,7 +188,7 @@ column: [styles.csv](styles.csv).
 | Drill | Street and Verse | 145 | 26 | 93 | Drill, sliding 808s, dark sparse piano, skippy syncopated hi-hats, aggressive deadpan flow, UK/Chicago drill, menacing and cold | https://musaisong.app/en/style/drill |
 | Drill | Asphalt and Diamonds | 142 | 32 | 87 | Drill, sliding 808 bass, icy hi-hats, ominous bell melody, aggressive precise flow, gritty street tension | https://musaisong.app/en/style/asf-drill |
 | Drone | Breathing Silence | 50 | 52 | 85 | Drone, sustained evolving low tones, deep harmonic resonance, minimal change, meditative immersion, deep drone, hypnotic and immense | https://musaisong.app/en/style/drone |
-| Drone Experimental | The Edge of the Map | — | 70 | 91 | Experimental Drone, sustained evolving tones, microtonal beating, dense harmonic layers, slow transformation, deep listening, immersive and vast | https://musaisong.app/en/style/drone-experimental |
+| Drone Experimental | The Edge of the Map | - | 70 | 91 | Experimental Drone, sustained evolving tones, microtonal beating, dense harmonic layers, slow transformation, deep listening, immersive and vast | https://musaisong.app/en/style/drone-experimental |
 | Drone Textural | Breathing Silence | 48 | 50 | 84 | Textural Drone, layered granular textures, sustained shifting tones, organic crackle, deep immersive resonance, textural ambient drone, immersive and hypnotic | https://musaisong.app/en/style/textural-drone |
 | Drum & Bass | Machines That Dream | 174 | 28 | 94 | Drum and Bass, fast breakbeat drums, deep rolling sub bass, energetic synths, rave energy, liquid and neurofunk elements, fast and powerful | https://musaisong.app/en/style/drum-and-bass |
 | Drumless Rap | Asphalt and Diamonds | 80 | 64 | 80 | Drumless Rap, no drums, looping soul sample only, intricate contemplative bars, raw vocal focus, art-rap minimalism | https://musaisong.app/en/style/asf-drumless |
@@ -198,7 +197,7 @@ column: [styles.csv](styles.csv).
 | Duduk Armenio | Distant Worlds | 58 | 26 | 95 | Armenian Duduk, mournful duduk double-reed, drone duduk, sparse strings, deeply melancholic phrasing, ancient Caucasus, sorrowful and sacred | https://musaisong.app/en/style/musica-armenia-duduk |
 | East Coast Hip-Hop | Street and Verse | 92 | 20 | 95 | East Coast Hip-Hop, gritty boom bap drums, dark jazz piano sample, hard bassline, dense complex lyrical flow, New York street rap, raw and intricate | https://musaisong.app/en/style/east-coast-hiphop |
 | Electro | Machines That Dream | 128 | 30 | 90 | Electro, robotic 808 electro beat, funky synth bass, vocoder vocals, retro-futuristic energy, classic electro-funk, robotic and groovy | https://musaisong.app/en/style/electro |
-| Electroacústica | The Edge of the Map | — | 72 | 91 | Electroacoustic Composition, processed acoustic instruments, spatial electronics, dramatic dynamic contrasts, academic avant-garde, sculptural and intense | https://musaisong.app/en/style/electroacoustic |
+| Electroacústica | The Edge of the Map | - | 72 | 91 | Electroacoustic Composition, processed acoustic instruments, spatial electronics, dramatic dynamic contrasts, academic avant-garde, sculptural and intense | https://musaisong.app/en/style/electroacoustic |
 | Electropop | Summer Sun | 120 | 24 | 92 | Electropop, crisp electronic beats, bright synth hooks, processed catchy vocals, glossy modern production, dancefloor pop, sleek and energetic | https://musaisong.app/en/style/electropop |
 | Emo Anthem | Ballads That Break the Sky | 90 | 28 | 92 | Emo Anthem, distorted guitars, driving drums, raw cracking emotional vocals, pop-punk emotional anthem, cathartic and youthful | https://musaisong.app/en/style/emo-anthem |
 | Emo Midwest | Electric Roads | 130 | 32 | 90 | Midwest Emo, intricate twinkly guitars, dynamic drums, earnest cracking vocals, emotional confessional lyrics, math-emo, heartfelt and intricate | https://musaisong.app/en/style/emo-midwest |
@@ -365,14 +364,14 @@ column: [styles.csv](styles.csv).
 | Morna Caboverdiana | Roots That Hold Fast | 72 | 20 | 95 | Morna, acoustic guitar, cavaquinho, violin, soulful melancholic female vocals, Cape Verde island folk, saudade and sea breeze | https://musaisong.app/en/style/morna-caboverdiana |
 | Motown Pop | Summer Sun | 124 | 14 | 93 | Motown Pop, tambourine backbeat, walking bass, bright horns, joyful call-and-response harmonies, 60s Detroit soul-pop, infectious and upbeat | https://musaisong.app/en/style/motown-pop |
 | Mumble Rap | Street and Verse | 130 | 30 | 88 | Mumble Rap, simple catchy melody, heavy 808s, repetitive hypnotic hooks, slurred melodic autotuned flow, modern trap-pop, catchy and hypnotic | https://musaisong.app/en/style/mumble-rap |
-| Música Aleatoria | The Edge of the Map | — | 72 | 91 | Aleatoric Music, chance-determined sounds, prepared piano, indeterminate timing, silence as composition, John Cage style, contemplative and unpredictable | https://musaisong.app/en/style/musica-aleatoria |
+| Música Aleatoria | The Edge of the Map | - | 72 | 91 | Aleatoric Music, chance-determined sounds, prepared piano, indeterminate timing, silence as composition, John Cage style, contemplative and unpredictable | https://musaisong.app/en/style/musica-aleatoria |
 | Música Andalusí | Distant Worlds | 76 | 24 | 95 | Andalusian Classical, oud, rebab, qanun, orchestra and choir, refined Arab-Andalusian nubas, elegant and historic | https://musaisong.app/en/style/musica-andalusi |
 | Música Árabe (Tarab) | Distant Worlds | 80 | 26 | 96 | Classical Arabic Tarab, oud, qanun, ney, string takht ensemble, ornamented maqam vocals, emotional improvisation, grand and passionate | https://musaisong.app/en/style/musica-arabe-tarab |
 | Música de Cámara | Hall of Centuries | 78 | 18 | 95 | Chamber Music, small ensemble (piano, strings, winds), intimate refined interplay, classical-romantic, elegant and warm | https://musaisong.app/en/style/musica-de-camara |
 | Música de Meditación | Breathing Silence | 50 | 30 | 85 | Meditation Music, soft sustained pads, gentle singing bowls, slow breathing pace, deeply calming tones, guided meditation ambient, peaceful and grounding | https://musaisong.app/en/style/meditation-music |
 | Música Sacra Renacentista | Hall of Centuries | 56 | 20 | 95 | Renaissance Sacred Music, a cappella choir, flowing polyphony, modal harmonies, Palestrina style, pure and serene | https://musaisong.app/en/style/musica-sacra-renacentista |
 | Musical Theatre Ballad | Ballads That Break the Sky | 72 | 26 | 93 | Musical Theatre Ballad, dramatic orchestra, theatrical building dynamics, powerful storytelling Broadway vocals, showstopper ballad, grand and emotive | https://musaisong.app/en/style/musical-theatre-ballad |
-| Musique Concrète | The Edge of the Map | — | 74 | 92 | Musique Concrète, manipulated tape recordings of real-world sounds, spliced field recordings, abstract sound sculpture, pioneering electroacoustic, eerie and inventive | https://musaisong.app/en/style/musique-concrete |
+| Musique Concrète | The Edge of the Map | - | 74 | 92 | Musique Concrète, manipulated tape recordings of real-world sounds, spliced field recordings, abstract sound sculpture, pioneering electroacoustic, eerie and inventive | https://musaisong.app/en/style/musique-concrete |
 | Nana Ambiental (Lullaby) | Breathing Silence | 60 | 28 | 87 | Ambient Lullaby, gentle music box, soft humming, warm pads, tender slow melody, soothing ambient lullaby, tender and warm | https://musaisong.app/en/style/lullaby-ambient |
 | Nashville Sound | Dust and Highway | 80 | 13 | 88 | Nashville Sound, smooth crooner vocals, lush string section, gentle backing choir, velvet 60s countrypolitan elegance | https://musaisong.app/en/style/plv-nashville-sound |
 | Neo-Bolero | Rain Romance | 85 | 52 | 93 | Neo-Bolero, nylon guitar with modern production, ambient pads, subtle electronic textures, intimate breathy vocals, cinematic Latin romance, modern and atmospheric | https://musaisong.app/en/style/neo-bolero |
@@ -388,7 +387,7 @@ column: [styles.csv](styles.csv).
 | Nightcore | The Edge of the Map | 170 | 50 | 88 | Nightcore, sped-up pitched-up pop vocals, accelerated energetic beat, hyper-bright euphoric remix, anime-fan aesthetic, frenetic and sugary | https://musaisong.app/en/style/nightcore |
 | Nigún Judío | Sacred Ground | 88 | 22 | 94 | Jewish Nigun, wordless soulful melody, voices and clarinet, building from meditative to joyful, Hasidic devotional, heartfelt and communal | https://musaisong.app/en/style/nigun-judio |
 | Nocturno para Piano | Hall of Centuries | 64 | 18 | 96 | Romantic Nocturne, solo grand piano, lyrical singing melody, gentle rubato, Chopin style, intimate and poetic | https://musaisong.app/en/style/nocturno-piano |
-| Noise | The Edge of the Map | — | 78 | 91 | Noise, harsh walls of feedback, distortion textures, abrasive layered drones, no rhythm, extreme sonic art, intense and cathartic | https://musaisong.app/en/style/noise |
+| Noise | The Edge of the Map | - | 78 | 91 | Noise, harsh walls of feedback, distortion textures, abrasive layered drones, no rhythm, extreme sonic art, intense and cathartic | https://musaisong.app/en/style/noise |
 | Noise Pop | Fog and Nostalgia | 130 | 38 | 91 | Noise Pop, fuzzy distorted guitars over sweet pop melodies, buried vocals, catchy hooks under noise, jangly noise pop, sweet and abrasive | https://musaisong.app/en/style/noise-pop |
 | Noise Rock | Electric Roads | 120 | 42 | 88 | Noise Rock, abrasive dissonant guitars, feedback, pounding tribal drums, intense unhinged vocals, art-punk chaos, harsh and cathartic | https://musaisong.app/en/style/noise-rock |
 | Nordic Folk | Roots That Hold Fast | 95 | 26 | 94 | Nordic Folk, nyckelharpa, frame drum, hardanger fiddle, ethereal layered female vocals, Scandinavian ancestral folk, mystical and cold-bright | https://musaisong.app/en/style/nordic-folk |
@@ -433,7 +432,7 @@ column: [styles.csv](styles.csv).
 | Post-Rock Cinematográfico | Fog and Nostalgia | 90 | 38 | 90 | Cinematic Post-Rock, atmospheric guitars with orchestral strings, slow builds, huge emotional crescendos, no vocals, film-like post-rock, epic and moving | https://musaisong.app/en/style/post-rock-cinematico |
 | Post-Rock Melancólico | Fog and Nostalgia | 80 | 38 | 90 | Melancholic Post-Rock, delicate clean guitars, sparse piano, slow mournful build, subtle strings, no vocals, sad cinematic post-rock, fragile and moving | https://musaisong.app/en/style/melancholic-post-rock |
 | Power Ballad | Ballads That Break the Sky | 72 | 51 | 97 | Power Ballad, soaring electric guitar solo, big drums, lush strings, massive belting vocals, 80s arena rock ballad, explosive and emotional | https://musaisong.app/en/style/power-ballad |
-| Power Electronics | The Edge of the Map | — | 80 | 89 | Power Electronics, harsh feedback synths, screaming distortion, brutal layered noise, cathartic intensity, extreme industrial noise, overwhelming and visceral | https://musaisong.app/en/style/power-electronics |
+| Power Electronics | The Edge of the Map | - | 80 | 89 | Power Electronics, harsh feedback synths, screaming distortion, brutal layered noise, cathartic intensity, extreme industrial noise, overwhelming and visceral | https://musaisong.app/en/style/power-electronics |
 | Power Metal | Storm and Steel | 170 | 24 | 95 | Power Metal, fast galloping guitars, double-kick drums, orchestral keyboards, soaring operatic clean vocals, epic fantasy metal, heroic and triumphant | https://musaisong.app/en/style/power-metal |
 | Power Pop | Electric Roads | 140 | 24 | 91 | Power Pop, crunchy bright guitars, tight drums, sweet harmonies, catchy hook-driven melodies, upbeat energetic vocals, 70s-90s power pop, punchy and sunny | https://musaisong.app/en/style/power-pop |
 | Prairie Ballad | Dust and Highway | 66 | 26 | 90 | Prairie Ballad, wide-open cinematic country, soaring reverbed vocals, ambient steel guitar, big sky atmosphere, wheat-field slow burn | https://musaisong.app/en/style/plv-prairie-ballad |
@@ -482,7 +481,7 @@ column: [styles.csv](styles.csv).
 | Samba Batucada | The Party That Never Ends | 130 | 16 | 96 | Samba Batucada, surdo, tamborim, agogô, cuíca, full percussion battery, euphoric carnival chant vocals, Rio carnival, explosive and joyous | https://musaisong.app/en/style/samba-batucada |
 | Saya Caporal | Roots That Hold Fast | 100 | 18 | 92 | Saya Caporal, Afro-Bolivian rhythm, bombo drums, brass, energetic group vocals, festive andean-afro fusion, danceable parade music | https://musaisong.app/en/style/saya-caporal |
 | Score Cinematográfico Clásico | Hall of Centuries | 80 | 22 | 95 | Golden-Age Film Score, sweeping orchestra, heroic leitmotifs, lush romantic strings, brass fanfares, classic Hollywood style, grand and emotional | https://musaisong.app/en/style/score-cinematografico-clasico |
-| Señal Sin Nombre | The Edge of the Map | — | 75 | 95 | Unclassifiable, evolving electronic-organic hybrid, sounds with no genre, a transmission from somewhere not yet mapped, beautiful and strange, the music that does not exist yet | https://musaisong.app/en/style/senal-sin-nombre |
+| Señal Sin Nombre | The Edge of the Map | - | 75 | 95 | Unclassifiable, evolving electronic-organic hybrid, sounds with no genre, a transmission from somewhere not yet mapped, beautiful and strange, the music that does not exist yet | https://musaisong.app/en/style/senal-sin-nombre |
 | Sertanejo Romántico | Rain Romance | 92 | 18 | 92 | Sertanejo Universitário, acoustic guitar, accordion, modern pop production, heartfelt romantic Portuguese vocals, Brazilian country romance, warm and catchy | https://musaisong.app/en/style/sertanejo-romantico |
 | Sevdah Bosnio | Distant Worlds | 66 | 24 | 94 | Sevdah, accordion, saz, strings, deeply melancholic Bosnian vocals, Balkan urban love song, sorrowful and beautiful | https://musaisong.app/en/style/sevdah-bosnio |
 | Sevillanas / Copla | Roots That Hold Fast | 125 | 14 | 95 | Sevillanas y Copla, Spanish guitar, palmas, castanets, proud expressive female vocals, Andalusian festive folk, sunny and theatrical | https://musaisong.app/en/style/sevillanas-copla |
@@ -509,7 +508,7 @@ column: [styles.csv](styles.csv).
 | Soul Clásico | Rain Romance | 75 | 16 | 97 | Classic Soul, Motown-style, warm organ, horn section, tight rhythm section, heartfelt powerful vocals, 60s soul romance, warm and timeless | https://musaisong.app/en/style/soul-clasico |
 | Soul Jazz | Smoke and Midnight | 100 | 26 | 93 | Soul Jazz, Hammond organ groove, bluesy guitar, tight horns, funky drums, gospel-tinged jazz, warm and groovy | https://musaisong.app/en/style/soul-jazz |
 | Sound Bath | Breathing Silence | 45 | 38 | 84 | Sound Bath, resonant crystal and Tibetan bowls, gongs, sustained healing frequencies, immersive overtones, therapeutic sound bath, immersive and healing | https://musaisong.app/en/style/sound-bath |
-| Sound Collage | The Edge of the Map | — | 70 | 90 | Sound Collage, layered spoken word, field recordings, radio static, juxtaposed audio fragments, tape experiment, surreal and narrative | https://musaisong.app/en/style/sound-collage |
+| Sound Collage | The Edge of the Map | - | 70 | 90 | Sound Collage, layered spoken word, field recordings, radio static, juxtaposed audio fragments, tape experiment, surreal and narrative | https://musaisong.app/en/style/sound-collage |
 | Southern Rock | Dust and Highway | 118 | 24 | 88 | Southern Rock, triple guitar attack, gritty male vocals, Hammond B3, swampy groove, whiskey-soaked swagger, extended guitar solo | https://musaisong.app/en/style/plv-southern-rock |
 | Southern Rock | Electric Roads | 115 | 24 | 92 | Southern Rock, dual guitar harmonies, slide guitar, organ, soulful gritty vocals, boogie rhythm, American Southern rock, warm and rowdy | https://musaisong.app/en/style/southern-rock |
 | Space Ambient | Breathing Silence | 55 | 44 | 87 | Space Ambient, vast cosmic synth pads, slow celestial swells, twinkling textures, deep-space atmosphere, cosmic ambient, infinite and serene | https://musaisong.app/en/style/space-ambient |
