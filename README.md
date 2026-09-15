@@ -2,10 +2,16 @@
 
 A reference catalogue of 564 music styles formatted for AI music generators (Suno, Udio). Each row gives the **style prompt** you paste into the "Style of Music" field, plus the three generation settings that actually change the output: **BPM**, **Weirdness** and **Style Influence**.
 
-All 564 are in this repo, two ways:
+All 564 are in this repo, four ways:
 
-- **[STYLES.md](STYLES.md)** — the complete table, readable in the browser.
-- **[styles.csv](styles.csv)** — the same data as CSV, plus the canonical song structure for each style: `style, family, bpm, weirdness, style_influence, style_prompt, structure, url`.
+- **[STYLES.md](STYLES.md)** — the complete table, readable in the browser. Start here if you only want to look one style up.
+- **[styles.csv](styles.csv)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/suno-style-recipes/main/styles.csv)) — one row per style, for a spreadsheet or a one-line `read_csv`. Columns: `style, family, bpm, weirdness, style_influence, style_prompt, structure, url`.
+- **[styles.json](styles.json)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/suno-style-recipes/main/styles.json)) — the same records with typed numbers and `null` where a style has no tempo, for anything that consumes it as an API.
+- **[styles.parquet](styles.parquet)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/suno-style-recipes/main/styles.parquet)) — columnar and compressed, 84 KB, for dataframe work at speed.
+
+Also published as a dataset on Hugging Face: <https://huggingface.co/datasets/musaisong/suno-style-recipes>
+
+Nine of the 564 are free-time and carry no BPM: the cell is empty in the CSV, `null` in the JSON and a dash in the table. Zero would be a false number, and a false number sinks any average you compute.
 
 The 59 in the README below are the annotated subset: same numbers, plus a craft note on the one writing problem each genre creates. Every style also has a full page with its canonical song structure and a sample excerpt: <https://musaisong.app/en/styles>
 
@@ -174,10 +180,18 @@ Each style below has one specific writing problem that the settings can't solve.
 
 ## All 564 styles
 
-- **[STYLES.md](STYLES.md)** — every documented style in one Markdown table.
-- **[styles.csv](styles.csv)** — the machine-readable copy, with the canonical song structure column.
+| File | Shape | Use it for |
+|---|---|---|
+| [STYLES.md](STYLES.md) | Markdown table | Reading and looking one style up |
+| [styles.csv](styles.csv) | 565 lines, 8 columns | Spreadsheets, `read_csv`, quick greps |
+| [styles.json](styles.json) | Typed records, `null` tempos | Feeding an app or an API |
+| [styles.parquet](styles.parquet) | Columnar, 84 KB | Dataframes and analytics |
 
-Both files are regenerated from the source catalogue by [a scheduled workflow](.github/workflows/sync-catalogue.yml), so they do not drift from it. Each style also has a full page carrying its structure, a craft note on how its lyrics behave, and a sample excerpt: <https://musaisong.app/en/styles>
+All four are regenerated from the source catalogue by [a scheduled workflow](.github/workflows/sync-catalogue.yml), so none of them drifts from the others. Mirrored as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/suno-style-recipes).
+
+**[ANALYSIS.md](ANALYSIS.md)** reads the corpus as data: what 564 documented genres reveal about how the three settings actually behave, including the measurement that contradicts the advice everyone repeats.
+
+Each style also has a full page carrying its structure, a craft note on how its lyrics behave, and a sample excerpt: <https://musaisong.app/en/styles>
 
 ## Contributing
 
@@ -185,4 +199,4 @@ Found a setting that works better? Open an issue with the style, the numbers you
 
 ## License
 
-Everything in this repo — the table in this README, `STYLES.md` and `styles.csv` — is released under CC0 1.0, public domain. Use it anywhere, no attribution required.
+Everything in this repo — the table in this README, `STYLES.md`, `styles.csv`, `styles.json` and `styles.parquet` — is released under CC0 1.0, public domain. Use it anywhere, no attribution required.
