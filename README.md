@@ -1,8 +1,13 @@
-# Suno Style Recipes — 59 documented music styles with BPM, weirdness and style influence
+# Suno Style Recipes — 564 documented music styles with BPM, weirdness and style influence
 
-A reference table of music styles formatted for AI music generators (Suno, Udio). Each row gives the **style prompt** you paste into the "Style of Music" field, plus the three generation settings that actually change the output: **BPM**, **Weirdness** and **Style Influence**.
+A reference catalogue of 564 music styles formatted for AI music generators (Suno, Udio). Each row gives the **style prompt** you paste into the "Style of Music" field, plus the three generation settings that actually change the output: **BPM**, **Weirdness** and **Style Influence**.
 
-These are extracted from a catalogue of 564 documented styles. Each style also has a full page with its canonical song structure, a craft note on how a lyric in that genre behaves, and a sample excerpt: <https://musaisong.app/en/styles>
+All 564 are in this repo, two ways:
+
+- **[STYLES.md](STYLES.md)** — the complete table, readable in the browser.
+- **[styles.csv](styles.csv)** — the same data as CSV, plus the canonical song structure for each style: `style, family, bpm, weirdness, style_influence, style_prompt, structure, url`.
+
+The 59 in the README below are the annotated subset: same numbers, plus a craft note on the one writing problem each genre creates. Every style also has a full page with its canonical song structure and a sample excerpt: <https://musaisong.app/en/styles>
 
 **Disclosure:** I built and maintain the catalogue these come from. It is a paid product; this table is not — copy it, fork it, use it.
 
@@ -22,7 +27,7 @@ The pattern worth noticing: **weirdness and style influence move independently.*
 
 ---
 
-## The table
+## The table — 59 annotated styles
 
 | Style | Family | BPM | Weirdness | Style influence | Style prompt | Full page |
 |---|---|---|---|---|---|---|
@@ -167,9 +172,12 @@ Each style below has one specific writing problem that the settings can't solve.
 
 ---
 
-## The other 505 styles
+## All 564 styles
 
-The full catalogue of 564 documented styles is at <https://musaisong.app/en/styles>. Each page carries the canonical structure for that genre, the settings above, a craft note on how its lyrics behave, and a sample excerpt.
+- **[STYLES.md](STYLES.md)** — every documented style in one Markdown table.
+- **[styles.csv](styles.csv)** — the machine-readable copy, with the canonical song structure column.
+
+Both files are regenerated from the source catalogue by [a scheduled workflow](.github/workflows/sync-catalogue.yml), so they do not drift from it. Each style also has a full page carrying its structure, a craft note on how its lyrics behave, and a sample excerpt: <https://musaisong.app/en/styles>
 
 ## Contributing
 
@@ -177,4 +185,4 @@ Found a setting that works better? Open an issue with the style, the numbers you
 
 ## License
 
-The table in this README is released under CC0 — public domain. Use it anywhere, no attribution required.
+Everything in this repo — the table in this README, `STYLES.md` and `styles.csv` — is released under CC0 1.0, public domain. Use it anywhere, no attribution required.
