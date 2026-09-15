@@ -1,7 +1,11 @@
 name: Sync catalogue
 
-# Pulls the full CC0 catalogue of documented styles from the public MUSAI
-# endpoint and commits it, so the published files never drift from source.
+# Pulls the full CC0 catalogue from the public MUSAI endpoint, normalises it and
+# publishes it in four formats. Runs on demand and weekly, so no file drifts.
+#
+# The one correction applied here: nine styles are free-time and the source emits
+# BPM 0 for them. Zero is not "no tempo", it is a false number that sinks any
+# average, so it becomes an empty cell in CSV, null in JSON and a dash in Markdown.
 
 on:
   workflow_dispatch:
@@ -20,39 +24,91 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build deps
+        run: python -m pip install --quiet pandas pyarrow
+
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Fetch styles.csv
+      - name: Fetch source
         run: |
-          curl -fsSL "$ENDPOINT?f=csv&limit=1000" -o styles.csv
-          rows=$(($(wc -l < styles.csv) - 1))
-          echo "Fetched $rows styles."
-          test "$rows" -ge 500
-          git add styles.csv
-          git diff --staged --quiet || git commit -m "Full catalogue: $rows styles"
+          curl -fsSL "$ENDPOINT?f=csv&limit=1000" -o raw.csv
+          curl -fsSL "$ENDPOINT?f=md&limit=1000" -o raw_table.md
+          test "$(wc -l < raw.csv)" -ge 500
 
-      - name: Build STYLES.md
+      - name: Build all four formats
         run: |
-          rows=$(($(wc -l < styles.csv) - 1))
-          curl -fsSL "$ENDPOINT?f=md&limit=1000" -o table.md
-          cat > STYLES.md <<EOF
-          # Every documented style ($rows)
+          python3 - <<'PY'
+          import csv, io, json, os
+          import pandas as pd
 
-          One row per style: the style prompt, the tempo, the two Suno sliders that
-          change the result most, and a link to the full page for that style.
+          HDR = ["style","family","bpm","weirdness","style_influence","style_prompt","structure","url"]
+          rows = list(csv.DictReader(open("raw.csv", encoding="utf-8")))
+          for r in rows:
+              if r["bpm"].strip() == "0":
+                  r["bpm"] = ""          # free-time: no tempo, not zero
+          n = len(rows)
+          pulseless = sum(1 for r in rows if r["bpm"] == "")
 
-          Public domain (CC0 1.0). Copy it, fork it, ship it, no attribution required.
-          Machine-readable copy of this same table, plus a canonical song structure
-          column: [styles.csv](styles.csv).
+          buf = io.StringIO()
+          w = csv.DictWriter(buf, fieldnames=HDR, lineterminator="\n")
+          w.writeheader()
+          w.writerows({k: r[k] for k in HDR} for r in rows)
+          open("styles.csv", "w", encoding="utf-8").write(buf.getvalue())
 
-          EOF
-          cat table.md >> STYLES.md
-          rm table.md
-          git add STYLES.md
-          git diff --staged --quiet || git commit -m "Add STYLES.md: full $rows-style table in Markdown"
+          def num(v):
+              v = (v or "").strip()
+              return int(v) if v.isdigit() else None
 
-      - name: Push
-        run: git push
+          styles = [{"style": r["style"], "family": r["family"], "bpm": num(r["bpm"]),
+                     "weirdness": num(r["weirdness"]), "style_influence": num(r["style_influence"]),
+                     "style_prompt": r["style_prompt"], "structure": r["structure"],
+                     "url": r["url"]} for r in rows]
+          doc = {"count": n, "license": "CC0-1.0",
+                 "source": "https://musaisong.app/en/styles",
+                 "repository": "https://github.com/samuelgrupolimex-prog/suno-style-recipes",
+                 "dataset": "https://huggingface.co/datasets/musaisong/suno-style-recipes",
+                 "styles": styles}
+          open("styles.json", "w", encoding="utf-8").write(json.dumps(doc, ensure_ascii=False, indent=2) + "\n")
+
+          df = pd.DataFrame(styles)
+          for c in ("bpm", "weirdness", "style_influence"):
+              df[c] = df[c].astype("Int64")
+          df.to_parquet("styles.parquet", index=False, compression="snappy")
+
+          table = []
+          for line in open("raw_table.md", encoding="utf-8").read().split("\n"):
+              if line.startswith("| ") and line.count("|") >= 8:
+                  cells = line.split("|")
+                  if cells[3].strip() == "0":
+                      cells[3] = " - "
+                  line = "|".join(cells)
+              table.append(line)
+
+          head = ("# Every documented style (" + str(n) + ")\n\n"
+                  "One row per style: the style prompt, the tempo, the two Suno sliders that\n"
+                  "change the result most, and a link to the full page for that style.\n\n"
+                  + str(pulseless) + " styles carry no BPM at all. They are free-time, and their tempo cell\n"
+                  "reads a dash rather than a zero: setting a BPM on them does not make them\n"
+                  "faster, it makes them wrong.\n\n"
+                  "Public domain (CC0 1.0). Copy it, fork it, ship it, no attribution required.\n"
+                  "The same data as CSV, JSON and Parquet, plus a canonical song structure\n"
+                  "column: [styles.csv](styles.csv) - [styles.json](styles.json) - [styles.parquet](styles.parquet).\n\n")
+          open("STYLES.md", "w", encoding="utf-8").write(head + "\n".join(table))
+
+          open(os.environ["GITHUB_ENV"], "a").write("ROWS=" + str(n) + "\n")
+          print("Built " + str(n) + " styles, " + str(pulseless) + " without pulse.")
+          PY
+          rm -f raw.csv raw_table.md
+
+      - name: Commit
+        run: |
+          git add styles.csv styles.json styles.parquet STYLES.md
+          git diff --staged --quiet || git commit -m "Sync catalogue: $ROWS styles in CSV, JSON, Parquet and Markdown"
+          git push
