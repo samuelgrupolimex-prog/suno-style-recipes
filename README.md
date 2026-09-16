@@ -5,6 +5,7 @@
 [![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20Parquet-F2B33D)](#all-564-styles)
 [![Synced weekly](https://github.com/samuelgrupolimex-prog/suno-style-recipes/actions/workflows/sync-catalogue.yml/badge.svg)](.github/workflows/sync-catalogue.yml)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/samuelgrupolimex-prog/suno-style-recipes/blob/main/notebooks/explore.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22788085.svg)](https://doi.org/10.5281/zenodo.22788085)
 [![GitHub stars](https://img.shields.io/github/stars/samuelgrupolimex-prog/suno-style-recipes?style=social)](https://github.com/samuelgrupolimex-prog/suno-style-recipes/stargazers)
 
 ![564 genres placed by Weirdness and Style Influence](assets/genre-map.png)
