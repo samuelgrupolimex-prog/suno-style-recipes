@@ -1,5 +1,18 @@
 # Suno Style Recipes — 564 documented music styles with BPM, weirdness and style influence
 
+[![License: CC0-1.0](https://img.shields.io/badge/license-CC0%201.0-3B2A8C)](LICENSE)
+[![Styles](https://img.shields.io/badge/styles-564-6D4AFF)](STYLES.md)
+[![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20Parquet-F2B33D)](#all-564-styles)
+[![Synced weekly](https://github.com/samuelgrupolimex-prog/suno-style-recipes/actions/workflows/sync-catalogue.yml/badge.svg)](.github/workflows/sync-catalogue.yml)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/samuelgrupolimex-prog/suno-style-recipes/blob/main/notebooks/explore.ipynb)
+[![GitHub stars](https://img.shields.io/github/stars/samuelgrupolimex-prog/suno-style-recipes?style=social)](https://github.com/samuelgrupolimex-prog/suno-style-recipes/stargazers)
+
+![564 genres placed by Weirdness and Style Influence](assets/genre-map.png)
+
+**Try it in 30 seconds:** open the notebook in Colab, type a genre, get its prompt and settings — or give it a Weirdness / Style Influence pair and it returns the ten genres that live there.
+
+If this saves you an afternoon of trial and error, a ⭐ helps other Suno users find it.
+
 A reference catalogue of 564 music styles formatted for AI music generators (Suno, Udio). Each row gives the **style prompt** you paste into the "Style of Music" field, plus the three generation settings that actually change the output: **BPM**, **Weirdness** and **Style Influence**.
 
 All 564 are in this repo, four ways:
@@ -189,10 +202,11 @@ Each style below has one specific writing problem that the settings can't solve.
 
 All four are regenerated from the source catalogue by [a scheduled workflow](.github/workflows/sync-catalogue.yml), so none of them drifts from the others. Mirrored as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/suno-style-recipes).
 
-Two write-ups read the corpus as data rather than as a lookup table:
+Three write-ups read the corpus as data rather than as a lookup table:
 
 - **[ANALYSIS.md](ANALYSIS.md)** — what 564 documented genres reveal about how the three settings actually behave, including the measurement that contradicts the advice everyone repeats.
 - **[ANALYSIS-2.md](ANALYSIS-2.md)** — the nine genres where BPM does not apply, why a zero in that field is worse than an empty one, and what replaces the meter when there is no pulse to write against.
+- **[ANALYSIS-3.md](ANALYSIS-3.md)** — the 47 artist, composer and brand names the style prompts used to carry, what replaced each one, and a four-part method to do the same in your own prompts.
 
 Each style also has a full page carrying its structure, a craft note on how its lyrics behave, and a sample excerpt: <https://musaisong.app/en/styles>
 
