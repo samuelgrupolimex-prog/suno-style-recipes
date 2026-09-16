@@ -1,0 +1,113 @@
+{
+  "name": "suno-style-recipes",
+  "title": "Suno Style Recipes",
+  "version": "1.2.0",
+  "description": "564 documented music styles for Suno and Udio: style prompt, BPM, Weirdness, Style Influence, family and canonical structure.",
+  "homepage": "https://musaisong.app/en/styles",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "title": "CC0 1.0"
+    }
+  ],
+  "keywords": [
+    "suno",
+    "udio",
+    "ai-music",
+    "style-prompts",
+    "music-genres"
+  ],
+  "resources": [
+    {
+      "name": "styles",
+      "path": "styles.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "primaryKey": [
+          "url"
+        ],
+        "fields": [
+          {
+            "name": "style",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "family",
+            "type": "string",
+            "description": "One of 18 families",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "bpm",
+            "type": "integer",
+            "description": "Empty for the 9 free-time styles; never 0",
+            "constraints": {
+              "minimum": 45,
+              "maximum": 220
+            }
+          },
+          {
+            "name": "weirdness",
+            "type": "integer",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "style_influence",
+            "type": "integer",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "style_prompt",
+            "type": "string",
+            "description": "Comma-separated Suno tags, no artist names",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "structure",
+            "type": "string",
+            "description": "Canonical section order for the genre"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "styles-json",
+      "path": "styles.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "styles-parquet",
+      "path": "styles.parquet",
+      "format": "parquet",
+      "mediatype": "application/vnd.apache.parquet"
+    }
+  ]
+}
