@@ -189,7 +189,10 @@ Each style below has one specific writing problem that the settings can't solve.
 
 All four are regenerated from the source catalogue by [a scheduled workflow](.github/workflows/sync-catalogue.yml), so none of them drifts from the others. Mirrored as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/suno-style-recipes).
 
-**[ANALYSIS.md](ANALYSIS.md)** reads the corpus as data: what 564 documented genres reveal about how the three settings actually behave, including the measurement that contradicts the advice everyone repeats.
+Two write-ups read the corpus as data rather than as a lookup table:
+
+- **[ANALYSIS.md](ANALYSIS.md)** — what 564 documented genres reveal about how the three settings actually behave, including the measurement that contradicts the advice everyone repeats.
+- **[ANALYSIS-2.md](ANALYSIS-2.md)** — the nine genres where BPM does not apply, why a zero in that field is worse than an empty one, and what replaces the meter when there is no pulse to write against.
 
 Each style also has a full page carrying its structure, a craft note on how its lyrics behave, and a sample excerpt: <https://musaisong.app/en/styles>
 
