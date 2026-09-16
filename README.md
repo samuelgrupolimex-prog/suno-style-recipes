@@ -203,3 +203,6 @@ Found a setting that works better? Open an issue with the style, the numbers you
 ## License
 
 Everything in this repo — the table in this README, `STYLES.md`, `styles.csv`, `styles.json` and `styles.parquet` — is released under CC0 1.0, public domain. Use it anywhere, no attribution required.
+
+The catalogue is free of charge and always will be. The lyric-writing tool it
+came from is a paid monthly subscription, from $5: <https://musaisong.app/planes>
