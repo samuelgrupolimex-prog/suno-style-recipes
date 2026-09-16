@@ -61,7 +61,7 @@
       "bpm": 54,
       "weirdness": 22,
       "style_influence": 96,
-      "style_prompt": "Adagio for Strings, slow string orchestra, gradually swelling, mournful aching melody, Barber style, devastating and sublime",
+      "style_prompt": "Adagio for Strings, slow string orchestra, gradually swelling, mournful aching melody, American neo-romantic string elegy, devastating and sublime",
       "structure": "[Slow theme] → [gradual build] → [shattering climax] → [silence] → [resolution]",
       "url": "https://musaisong.app/en/style/adagio-cuerdas"
     },
@@ -111,7 +111,7 @@
       "bpm": 110,
       "weirdness": 28,
       "style_influence": 95,
-      "style_prompt": "Afrobeat, tight horn section, funky guitar, Tony Allen-style drums, organ, call-and-response vocals, long hypnotic grooves, Nigerian, political and infectious",
+      "style_prompt": "Afrobeat, tight horn section, funky guitar, polyrhythmic hi-hat-driven drumming, organ, call-and-response vocals, long hypnotic grooves, Nigerian, political and infectious",
       "structure": "[Long intro groove] → [horns] → [Verse] → [call-and-response chorus] → [solo] → [final groove]",
       "url": "https://musaisong.app/en/style/afrobeat-fela"
     },
@@ -151,7 +151,7 @@
       "bpm": 96,
       "weirdness": 38,
       "style_influence": 85,
-      "style_prompt": "Alt-Country, melancholic indie vocals, jangly guitars with feedback edges, lo-fi warmth, bittersweet melodies, No Depression era spirit",
+      "style_prompt": "Alt-Country, melancholic indie vocals, jangly guitars with feedback edges, lo-fi warmth, bittersweet melodies, 90s insurgent-country spirit",
       "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Noisy Bridge] → [Final Chorus]",
       "url": "https://musaisong.app/en/style/plv-alt-country"
     },
@@ -191,7 +191,7 @@
       "bpm": 60,
       "weirdness": 40,
       "style_influence": 88,
-      "style_prompt": "Ambient, vast evolving synth pads, gentle drones, subtle textures, no rhythm, spacious atmosphere, Eno-style ambient, serene and infinite",
+      "style_prompt": "Ambient, vast evolving synth pads, gentle drones, subtle textures, no rhythm, spacious atmosphere, generative tape-loop ambient, serene and infinite",
       "structure": "[Layer 1] pad → [Evolution] → [Layer 2] → [Dissolution]",
       "url": "https://musaisong.app/en/style/ambient"
     },
@@ -351,7 +351,7 @@
       "bpm": 70,
       "weirdness": 64,
       "style_influence": 91,
-      "style_prompt": "Atonal Serialism, twelve-tone rows, no tonal center, angular dissonant intervals, sparse pointillist orchestration, Schoenberg-Webern style, austere and unsettling",
+      "style_prompt": "Atonal Serialism, twelve-tone rows, no tonal center, angular dissonant intervals, sparse pointillist orchestration, Second Viennese School serialism, austere and unsettling",
       "structure": "[Twelve-Tone Row] → [Variation] → [Inversion] → [Dissonant Climax] → [Open Cadence]",
       "url": "https://musaisong.app/en/style/atonal-serialismo"
     },
@@ -401,7 +401,7 @@
       "bpm": 78,
       "weirdness": 24,
       "style_influence": 91,
-      "style_prompt": "Animated-film I Want Ballad, sparkling orchestra, hopeful building melody, soaring earnest vocals, Disney-style dream ballad, magical and uplifting",
+      "style_prompt": "Animated-film I Want Ballad, sparkling orchestra, hopeful building melody, soaring earnest vocals, musical-theatre dream ballad, magical and uplifting",
       "structure": "[Intro] → [Verse] longing → [Pre-Chorus] → [Chorus] dreamy → [Bridge] → [Final Chorus] triumphant",
       "url": "https://musaisong.app/en/style/balada-i-want"
     },
@@ -491,7 +491,7 @@
       "bpm": 92,
       "weirdness": 18,
       "style_influence": 96,
-      "style_prompt": "Classical Ballet, graceful orchestra, dancing strings, delicate woodwinds, sweeping romantic themes, Tchaikovsky style, elegant and magical",
+      "style_prompt": "Classical Ballet, graceful orchestra, dancing strings, delicate woodwinds, sweeping romantic themes, late-Romantic Russian ballet score, elegant and magical",
       "structure": "[Entrance] → [Adagio] → [Variation] → [Coda] brilliant",
       "url": "https://musaisong.app/en/style/ballet-clasico"
     },
@@ -521,7 +521,7 @@
       "bpm": 100,
       "weirdness": 18,
       "style_influence": 97,
-      "style_prompt": "Baroque, harpsichord, string ensemble, intricate counterpoint, ornamented melodies, Bach-Vivaldi style, elegant and precise",
+      "style_prompt": "Baroque, harpsichord, string ensemble, intricate counterpoint, ornamented melodies, High Baroque concerto style, elegant and precise",
       "structure": "[Ritornello] → [Episode] → [Ritornello] → [Episode] → [Final ritornello]",
       "url": "https://musaisong.app/en/style/barroco-clavecin"
     },
@@ -861,7 +861,7 @@
       "bpm": 84,
       "weirdness": 20,
       "style_influence": 95,
-      "style_prompt": "Baroque Cantata, small choir, strings, harpsichord continuo, solo voice arias, Bach style, devout and intricate",
+      "style_prompt": "Baroque Cantata, small choir, strings, harpsichord continuo, solo voice arias, Lutheran High Baroque style, devout and intricate",
       "structure": "[Opening Chorus] → [Recitative] → [Aria] → [Final Chorale]",
       "url": "https://musaisong.app/en/style/cantata-barroca"
     },
@@ -961,7 +961,7 @@
       "bpm": 78,
       "weirdness": 18,
       "style_influence": 94,
-      "style_prompt": "Canzone Italiana, sweeping strings, piano, dramatic passionate Italian vocals, Sanremo-style romantic ballad, grand and heartfelt",
+      "style_prompt": "Canzone Italiana, sweeping strings, piano, dramatic passionate Italian vocals, classic Italian festival ballad, grand and heartfelt",
       "structure": "[Piano intro] → [Verse] → [Elevated chorus] → [Verse 2] → [Final chorus with modulation]",
       "url": "https://musaisong.app/en/style/canzone-italiana"
     },
@@ -1147,16 +1147,6 @@
     },
     {
       "style": "Cloud Rap",
-      "family": "Asphalt and Diamonds",
-      "bpm": 126,
-      "weirdness": 58,
-      "style_influence": 78,
-      "style_prompt": "Cloud Rap, dreamy washed-out synths, hazy reverb vocals, floating melody, lo-fi drums, ethereal internet-era vibe",
-      "structure": "[Ethereal intro] → [Verse] → [Floating hook] → [Verse 2] → [Hook] → [Dissolution]",
-      "url": "https://musaisong.app/en/style/asf-cloud-rap"
-    },
-    {
-      "style": "Cloud Rap",
       "family": "Street and Verse",
       "bpm": 70,
       "weirdness": 38,
@@ -1164,6 +1154,16 @@
       "style_prompt": "Cloud Rap, ethereal hazy synths, reverb-drenched 808s, dreamy washed-out atmosphere, mumbled melodic flow, atmospheric trap, floaty and surreal",
       "structure": "[Intro] pads → [Verse] → [Hook] → [Verse 2] → [Outro] ethereal",
       "url": "https://musaisong.app/en/style/cloud-rap"
+    },
+    {
+      "style": "Cloud Rap",
+      "family": "Asphalt and Diamonds",
+      "bpm": 126,
+      "weirdness": 58,
+      "style_influence": 78,
+      "style_prompt": "Cloud Rap, dreamy washed-out synths, hazy reverb vocals, floating melody, lo-fi drums, ethereal internet-era vibe",
+      "structure": "[Ethereal intro] → [Verse] → [Floating hook] → [Verse 2] → [Hook] → [Dissolution]",
+      "url": "https://musaisong.app/en/style/asf-cloud-rap"
     },
     {
       "style": "Coldwave",
@@ -1237,16 +1237,6 @@
     },
     {
       "style": "Country Ballad",
-      "family": "Ballads That Break the Sky",
-      "bpm": 72,
-      "weirdness": 22,
-      "style_influence": 94,
-      "style_prompt": "Country Ballad, acoustic guitar, pedal steel, fiddle, warm storytelling vocals, Nashville heartbreak ballad, sincere and emotional",
-      "structure": "[Intro] pedal steel → [Verse] → [Chorus] → [Verse 2] → [Bridge] → [Final chorus]",
-      "url": "https://musaisong.app/en/style/country-ballad"
-    },
-    {
-      "style": "Country Ballad",
       "family": "Dust and Highway",
       "bpm": 68,
       "weirdness": 14,
@@ -1254,6 +1244,16 @@
       "style_prompt": "Country Ballad, tender emotional vocals, weeping pedal steel, soft piano, slow 6/8 sway, heartfelt confession, tears-on-the-jukebox",
       "structure": "[Steel Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Bridge] → [Soft Final Chorus]",
       "url": "https://musaisong.app/en/style/plv-country-ballad"
+    },
+    {
+      "style": "Country Ballad",
+      "family": "Ballads That Break the Sky",
+      "bpm": 72,
+      "weirdness": 22,
+      "style_influence": 94,
+      "style_prompt": "Country Ballad, acoustic guitar, pedal steel, fiddle, warm storytelling vocals, Nashville heartbreak ballad, sincere and emotional",
+      "structure": "[Intro] pedal steel → [Verse] → [Chorus] → [Verse 2] → [Bridge] → [Final chorus]",
+      "url": "https://musaisong.app/en/style/country-ballad"
     },
     {
       "style": "Country Blues",
@@ -1331,7 +1331,7 @@
       "bpm": 76,
       "weirdness": 32,
       "style_influence": 89,
-      "style_prompt": "Cowboy Western, deep campfire vocals, whistling melody, spanish guitar, desert reverb, clip-clop rhythm, Morricone-tinged frontier",
+      "style_prompt": "Cowboy Western, deep campfire vocals, whistling melody, spanish guitar, desert reverb, clip-clop rhythm, spaghetti-western frontier",
       "structure": "[Whistle intro] → [Verse] → [Chorus] → [Verse 2] → [Desert interlude] → [Final chorus]",
       "url": "https://musaisong.app/en/style/plv-cowboy-western"
     },
@@ -1521,7 +1521,7 @@
       "bpm": 130,
       "weirdness": 66,
       "style_influence": 91,
-      "style_prompt": "Deconstructed Club, fragmented club rhythms, metallic synths, abstract pop shards, gabber kicks, SOPHIE-PC Music style, futuristic and jarring",
+      "style_prompt": "Deconstructed Club, fragmented club rhythms, metallic synths, abstract pop shards, gabber kicks, hyper-glossy synthetic pop textures, futuristic and jarring",
       "structure": "[Club Fragment] → [metallic synthesis] → [deconstructed drop] → [silence] → [reconstruction]",
       "url": "https://musaisong.app/en/style/deconstructed-club"
     },
@@ -1607,16 +1607,6 @@
     },
     {
       "style": "Dirty South",
-      "family": "Asphalt and Diamonds",
-      "bpm": 136,
-      "weirdness": 32,
-      "style_influence": 85,
-      "style_prompt": "Dirty South, heavy swampy 808s, chant-along hook, southern drawl flow, strip-club bounce, Atlanta heat energy",
-      "structure": "[Intro] → [Verse] → [Chanted hook] → [Verse 2] → [Hook] → [Breakdown] → [Final hook]",
-      "url": "https://musaisong.app/en/style/asf-dirty-south"
-    },
-    {
-      "style": "Dirty South",
       "family": "Street and Verse",
       "bpm": 75,
       "weirdness": 22,
@@ -1624,6 +1614,16 @@
       "style_prompt": "Dirty South, heavy 808 bass, slow knocking drums, chanted catchy hooks, crunk energy, Southern US rap, booming and rowdy",
       "structure": "[Intro] → [Verse] → [Hook] sung → [Verse 2] → [Final Hook]",
       "url": "https://musaisong.app/en/style/dirty-south"
+    },
+    {
+      "style": "Dirty South",
+      "family": "Asphalt and Diamonds",
+      "bpm": 136,
+      "weirdness": 32,
+      "style_influence": 85,
+      "style_prompt": "Dirty South, heavy swampy 808s, chant-along hook, southern drawl flow, strip-club bounce, Atlanta heat energy",
+      "structure": "[Intro] → [Verse] → [Chanted hook] → [Verse 2] → [Hook] → [Breakdown] → [Final hook]",
+      "url": "https://musaisong.app/en/style/asf-dirty-south"
     },
     {
       "style": "Disco",
@@ -1887,16 +1887,6 @@
     },
     {
       "style": "Emo Rap",
-      "family": "Asphalt and Diamonds",
-      "bpm": 120,
-      "weirdness": 42,
-      "style_influence": 82,
-      "style_prompt": "Emo Rap, melancholic guitar loop, trap drums, pained melodic vocals, raw confessional lyrics, bedroom sadness energy",
-      "structure": "[Guitar intro] → [Verse] → [Hook] → [Verse 2] → [Hook] → [Raw bridge] → [Final hook]",
-      "url": "https://musaisong.app/en/style/asf-emo-rap"
-    },
-    {
-      "style": "Emo Rap",
       "family": "Street and Verse",
       "bpm": 85,
       "weirdness": 34,
@@ -1904,6 +1894,16 @@
       "style_prompt": "Emo Rap, melancholic guitar loop, soft 808s, autotuned vulnerable singing-rap, emotional confessional delivery, sad and raw, trap-emo fusion",
       "structure": "[Intro] guitar → [Verse] → [Hook] sung → [Verse 2] → [Final hook]",
       "url": "https://musaisong.app/en/style/emo-rap"
+    },
+    {
+      "style": "Emo Rap",
+      "family": "Asphalt and Diamonds",
+      "bpm": 120,
+      "weirdness": 42,
+      "style_influence": 82,
+      "style_prompt": "Emo Rap, melancholic guitar loop, trap drums, pained melodic vocals, raw confessional lyrics, bedroom sadness energy",
+      "structure": "[Guitar intro] → [Verse] → [Hook] → [Verse 2] → [Hook] → [Raw bridge] → [Final hook]",
+      "url": "https://musaisong.app/en/style/asf-emo-rap"
     },
     {
       "style": "Emo-Shoegaze",
@@ -1941,7 +1941,7 @@
       "bpm": 50,
       "weirdness": 66,
       "style_influence": 91,
-      "style_prompt": "Spectral Music, orchestra exploring sound spectra, shimmering microtonal harmonies, slowly morphing timbres, Grisey style, luminous and alien",
+      "style_prompt": "Spectral Music, orchestra exploring sound spectra, shimmering microtonal harmonies, slowly morphing timbres, French spectralist technique, luminous and alien",
       "structure": "[Initial spectrum] → [Timbral morphology] → [Harmonic transformation] → [Luminous climax] → [Dissolution]",
       "url": "https://musaisong.app/en/style/spectral-music"
     },
@@ -1981,7 +1981,7 @@
       "bpm": 88,
       "weirdness": 34,
       "style_influence": 94,
-      "style_prompt": "Ethio-Jazz, vibraphone, organ, horns, hypnotic Ethiopian pentatonic scales, jazz groove, Mulatu Astatke style, smoky and mysterious",
+      "style_prompt": "Ethio-Jazz, vibraphone, organ, horns, hypnotic Ethiopian pentatonic scales, jazz groove, 1970s Addis Ababa jazz, smoky and mysterious",
       "structure": "[Modal theme] → [vibraphone] → [organ solo] → [horns] → [closing theme]",
       "url": "https://musaisong.app/en/style/ethio-jazz"
     },
@@ -2001,7 +2001,7 @@
       "bpm": 128,
       "weirdness": 18,
       "style_influence": 91,
-      "style_prompt": "Europop, euphoric synths, four-on-the-floor, huge anthemic chorus, polished theatrical vocals, Eurovision-style pop, glittery and grand",
+      "style_prompt": "Europop, euphoric synths, four-on-the-floor, huge anthemic chorus, polished theatrical vocals, pan-European contest pop, glittery and grand",
       "structure": "[Intro] → [Verse] → [Pre/build] → [Huge chorus] → [Verse 2] → [Final chorus with key change]",
       "url": "https://musaisong.app/en/style/europop"
     },
@@ -2141,7 +2141,7 @@
       "bpm": 80,
       "weirdness": 58,
       "style_influence": 93,
-      "style_prompt": "Fourth World, processed trumpet, ethnic percussion textures, ambient electronics, imaginary-culture soundscape, Jon Hassell style, mysterious and otherworldly",
+      "style_prompt": "Fourth World, processed trumpet, ethnic percussion textures, ambient electronics, imaginary-culture soundscape, harmonized electronic trumpet drones, mysterious and otherworldly",
       "structure": "[Ambient drone] → [processed trumpet] → [ethnic percussion] → [imaginary soundscape] → [dissolution]",
       "url": "https://musaisong.app/en/style/fourth-world"
     },
@@ -2201,7 +2201,7 @@
       "bpm": 110,
       "weirdness": 18,
       "style_influence": 93,
-      "style_prompt": "Funk-Pop, slap bass, funky guitar, bright horns, retro-modern groove, charismatic soulful vocals, Bruno Mars style, fun and irresistible",
+      "style_prompt": "Funk-Pop, slap bass, funky guitar, bright horns, retro-modern groove, charismatic soulful vocals, modern retro-funk showmanship, fun and irresistible",
       "structure": "[Groove intro] → [Verse] → [Pre-chorus] → [Chorus] → [Verse 2] → [Horn break] → [Final chorus]",
       "url": "https://musaisong.app/en/style/funk-pop"
     },
@@ -2211,7 +2211,7 @@
       "bpm": 130,
       "weirdness": 34,
       "style_influence": 92,
-      "style_prompt": "Balkan Cinematic Fusion, frantic brass, gypsy violin, accordion, driving percussion, dramatic wordless vocals, Bregović film style, wild and euphoric",
+      "style_prompt": "Balkan Cinematic Fusion, frantic brass, gypsy violin, accordion, driving percussion, dramatic wordless vocals, Balkan brass film-score energy, wild and euphoric",
       "structure": "[Dramatic Intro] → [Fast Theme] → [Frantic Acceleration] → [Climax] → [Euphoric Outro]",
       "url": "https://musaisong.app/en/style/balkan-cine-fusion"
     },
@@ -2481,7 +2481,7 @@
       "bpm": 180,
       "weirdness": 30,
       "style_influence": 94,
-      "style_prompt": "Gypsy Jazz, fast acoustic guitar la pompe rhythm, virtuosic lead guitar, swinging violin, upright bass, Django-style manouche, lively and virtuosic",
+      "style_prompt": "Gypsy Jazz, fast acoustic guitar la pompe rhythm, virtuosic lead guitar, swinging violin, upright bass, 1930s Parisian hot-club swing, lively and virtuosic",
       "structure": "[Intro] → [Theme] → [Solo] fast guitar → [Solo] violin → [Final Theme]",
       "url": "https://musaisong.app/en/style/gypsy-jazz"
     },
@@ -2557,6 +2557,16 @@
     },
     {
       "style": "Heartland Rock",
+      "family": "Dust and Highway",
+      "bpm": 122,
+      "weirdness": 18,
+      "style_influence": 89,
+      "style_prompt": "Heartland Rock, passionate raspy vocals, jangling guitars, glockenspiel, driving drums, working-class anthem, 80s American heartland spirit",
+      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Bridge] → [Epic final chorus]",
+      "url": "https://musaisong.app/en/style/plv-heartland-rock"
+    },
+    {
+      "style": "Heartland Rock",
       "family": "Electric Roads",
       "bpm": 122,
       "weirdness": 22,
@@ -2564,16 +2574,6 @@
       "style_prompt": "Heartland Rock, anthemic guitars, piano, organ, gravelly earnest vocals, working-class storytelling, American roots rock, warm and rousing",
       "structure": "[Intro] → [Verse] → [Anthemic Chorus] → [Verse 2] → [Solo] → [Final Chorus]",
       "url": "https://musaisong.app/en/style/heartland-rock"
-    },
-    {
-      "style": "Heartland Rock",
-      "family": "Dust and Highway",
-      "bpm": 122,
-      "weirdness": 18,
-      "style_influence": 89,
-      "style_prompt": "Heartland Rock, passionate raspy vocals, jangling guitars, glockenspiel, driving drums, working-class anthem, Springsteen-era spirit",
-      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Bridge] → [Epic final chorus]",
-      "url": "https://musaisong.app/en/style/plv-heartland-rock"
     },
     {
       "style": "Heavy Metal",
@@ -2621,7 +2621,7 @@
       "bpm": 72,
       "weirdness": 18,
       "style_influence": 96,
-      "style_prompt": "Classical Choral Anthem, grand choir and orchestra, triumphant harmonies, majestic build, Handel Hallelujah style, glorious and uplifting",
+      "style_prompt": "Classical Choral Anthem, grand choir and orchestra, triumphant harmonies, majestic build, Baroque oratorio grandeur, glorious and uplifting",
       "structure": "[Intro] → [Choral Theme] → [Polyphonic Development] → [Climax] → [Glorious Finale]",
       "url": "https://musaisong.app/en/style/himno-coral-clasico"
     },
@@ -2761,7 +2761,7 @@
       "bpm": 110,
       "weirdness": 64,
       "style_influence": 94,
-      "style_prompt": "Intelligent Dance Music, intricate broken beats, complex programming, melodic synth pads, glitchy percussion, Aphex-Autechre style, cerebral and emotional",
+      "style_prompt": "Intelligent Dance Music, intricate broken beats, complex programming, melodic synth pads, glitchy percussion, 90s braindance electronica, cerebral and emotional",
       "structure": "[Atmospheric pad] → [Fractured beat] → [Rhythmic layers] → [Melodic climax] → [Glitch dissolution]",
       "url": "https://musaisong.app/en/style/idm"
     },
@@ -2771,7 +2771,7 @@
       "bpm": 70,
       "weirdness": 26,
       "style_influence": 95,
-      "style_prompt": "Impressionist Classical, shimmering piano, whole-tone harmonies, soft flutes and harp, Debussy-Ravel style, dreamy and atmospheric",
+      "style_prompt": "Impressionist Classical, shimmering piano, whole-tone harmonies, soft flutes and harp, French Impressionist style, dreamy and atmospheric",
       "structure": "[Floating theme] → [Harmonic color] → [Swell] → [Reflection] → [Dissolution]",
       "url": "https://musaisong.app/en/style/impresionismo"
     },
@@ -3141,7 +3141,7 @@
       "bpm": 72,
       "weirdness": 18,
       "style_influence": 95,
-      "style_prompt": "Romantic Lied, solo voice and piano, intimate poetic melody, expressive German art song, Schubert style, tender and profound",
+      "style_prompt": "Romantic Lied, solo voice and piano, intimate poetic melody, expressive German art song, early-Romantic Viennese art song, tender and profound",
       "structure": "[Piano intro] → [Stanza] → [Stanza] → [Poetic climax] → [Piano coda]",
       "url": "https://musaisong.app/en/style/lied-romantico"
     },
@@ -3251,7 +3251,7 @@
       "bpm": 100,
       "weirdness": 18,
       "style_influence": 95,
-      "style_prompt": "Triumphal March, full orchestra, blazing brass fanfares, pounding timpani, choir, Verdi Aida style, majestic and victorious",
+      "style_prompt": "Triumphal March, full orchestra, blazing brass fanfares, pounding timpani, choir, Italian grand-opera triumphal march, majestic and victorious",
       "structure": "[Fanfare] → [March theme] → [Chorus] → [Grand theme] → [Apotheotic finale]",
       "url": "https://musaisong.app/en/style/marcha-triunfal"
     },
@@ -3421,7 +3421,7 @@
       "bpm": 90,
       "weirdness": 36,
       "style_influence": 88,
-      "style_prompt": "Minimalism, repetitive evolving piano and marimba patterns, gradual phasing, hypnotic process music, Reich-Glass style, hypnotic and meditative",
+      "style_prompt": "Minimalism, repetitive evolving piano and marimba patterns, gradual phasing, hypnotic process music, 1970s New York minimalism, hypnotic and meditative",
       "structure": "[Base Pattern] → [Gradual Phasing] → [Layering] → [Resolution]",
       "url": "https://musaisong.app/en/style/minimalismo"
     },
@@ -3431,7 +3431,7 @@
       "bpm": 100,
       "weirdness": 38,
       "style_influence": 94,
-      "style_prompt": "Classical Minimalism, repeating piano and string patterns, gradual phasing, hypnotic build, Glass-Reich-Richter style, meditative and emotional",
+      "style_prompt": "Classical Minimalism, repeating piano and string patterns, gradual phasing, hypnotic build, post-minimalist cinematic repetition, meditative and emotional",
       "structure": "[Cell A] → [gradual addition] → [layers] → [subtle shift] → luminous [resolution]",
       "url": "https://musaisong.app/en/style/minimalismo-clasico"
     },
@@ -3501,7 +3501,7 @@
       "bpm": 124,
       "weirdness": 14,
       "style_influence": 93,
-      "style_prompt": "Motown Pop, tambourine backbeat, walking bass, bright horns, joyful call-and-response harmonies, 60s Detroit soul-pop, infectious and upbeat",
+      "style_prompt": "Classic Soul-Pop, tambourine backbeat, walking bass, bright horns, joyful call-and-response harmonies, 60s Detroit soul-pop, infectious and upbeat",
       "structure": "[Intro] → [Verse] → [Harmony chorus] → [Verse 2] → [Bridge] → [Final chorus]",
       "url": "https://musaisong.app/en/style/motown-pop"
     },
@@ -3521,7 +3521,7 @@
       "bpm": null,
       "weirdness": 72,
       "style_influence": 91,
-      "style_prompt": "Aleatoric Music, chance-determined sounds, prepared piano, indeterminate timing, silence as composition, John Cage style, contemplative and unpredictable",
+      "style_prompt": "Aleatoric Music, chance-determined sounds, prepared piano, indeterminate timing, silence as composition, 1950s American experimental indeterminacy, contemplative and unpredictable",
       "structure": "[Random sound] → [silence] → [unpredictable event] → [silence] → [open-ended resolution]",
       "url": "https://musaisong.app/en/style/musica-aleatoria"
     },
@@ -3571,7 +3571,7 @@
       "bpm": 56,
       "weirdness": 20,
       "style_influence": 95,
-      "style_prompt": "Renaissance Sacred Music, a cappella choir, flowing polyphony, modal harmonies, Palestrina style, pure and serene",
+      "style_prompt": "Renaissance Sacred Music, a cappella choir, flowing polyphony, modal harmonies, Roman Renaissance polyphony, pure and serene",
       "structure": "[Voice entries] → [interwoven polyphony] → [modal climax] → serene [cadence]",
       "url": "https://musaisong.app/en/style/musica-sacra-renacentista"
     },
@@ -3651,7 +3651,7 @@
       "bpm": 96,
       "weirdness": 30,
       "style_influence": 93,
-      "style_prompt": "Neoclassical, chamber orchestra, angular witty rhythms, clean modern harmonies, Stravinsky-Prokofiev style, sharp and elegant",
+      "style_prompt": "Neoclassical, chamber orchestra, angular witty rhythms, clean modern harmonies, early-20th-century neoclassical wit, sharp and elegant",
       "structure": "[Rhythmic theme] → [contrast] → [angular development] → [recapitulation] → [dry ending]",
       "url": "https://musaisong.app/en/style/neoclasicismo"
     },
@@ -3741,7 +3741,7 @@
       "bpm": 64,
       "weirdness": 18,
       "style_influence": 96,
-      "style_prompt": "Romantic Nocturne, solo grand piano, lyrical singing melody, gentle rubato, Chopin style, intimate and poetic",
+      "style_prompt": "Romantic Nocturne, solo grand piano, lyrical singing melody, gentle rubato, Romantic-era salon nocturne, intimate and poetic",
       "structure": "[Theme A] lyrical → [Theme B] contrasting → [Theme A ornamented] → [Coda] suspended",
       "url": "https://musaisong.app/en/style/nocturno-piano"
     },
@@ -3871,7 +3871,7 @@
       "bpm": 120,
       "weirdness": 18,
       "style_influence": 94,
-      "style_prompt": "Festive Overture, brilliant fanfares, sparkling strings, energetic full orchestra, celebratory brass, Shostakovich style, joyous and dazzling",
+      "style_prompt": "Festive Overture, brilliant fanfares, sparkling strings, energetic full orchestra, celebratory brass, Soviet-era festive orchestral brilliance, joyous and dazzling",
       "structure": "[Fanfare] → [Fast Theme] → [Lyrical Theme] → [Recapitulation] → [Brilliant Coda]",
       "url": "https://musaisong.app/en/style/obertura-festiva"
     },
@@ -3891,7 +3891,7 @@
       "bpm": 70,
       "weirdness": 20,
       "style_influence": 96,
-      "style_prompt": "Bel Canto Opera, agile coloratura soprano, elegant orchestral accompaniment, ornate vocal runs, Rossini-Bellini style, dazzling and graceful",
+      "style_prompt": "Bel Canto Opera, agile coloratura soprano, elegant orchestral accompaniment, ornate vocal runs, early-19th-century Italian bel canto, dazzling and graceful",
       "structure": "[Recitative] → [Cavatina] lyrical → [Cabaletta] coloratura → [Brilliant Finale]",
       "url": "https://musaisong.app/en/style/opera-bel-canto"
     },
@@ -3901,7 +3901,7 @@
       "bpm": 68,
       "weirdness": 22,
       "style_influence": 96,
-      "style_prompt": "Verismo Opera, passionate orchestra, raw emotional dramatic vocals, sweeping tragic melodies, Puccini style, heart-wrenching and grand",
+      "style_prompt": "Verismo Opera, passionate orchestra, raw emotional dramatic vocals, sweeping tragic melodies, Italian verismo lyricism, heart-wrenching and grand",
       "structure": "[Intro] → [Dramatic Recitative] → [Gut-Wrenching Aria] → [Tragic Climax] → [Devastating Finale]",
       "url": "https://musaisong.app/en/style/opera-verista"
     },
@@ -3911,7 +3911,7 @@
       "bpm": 66,
       "weirdness": 20,
       "style_influence": 96,
-      "style_prompt": "Oratorio, large choir, orchestra, soloists, sacred dramatic narrative, Handel-Bach style, grand and reverent",
+      "style_prompt": "Oratorio, large choir, orchestra, soloists, sacred dramatic narrative, High Baroque sacred style, grand and reverent",
       "structure": "[Overture] → [Recitative] → [Aria] → [Monumental Chorus] → [Final Chorale]",
       "url": "https://musaisong.app/en/style/oratorio"
     },
@@ -4021,7 +4021,7 @@
       "bpm": 92,
       "weirdness": 22,
       "style_influence": 95,
-      "style_prompt": "Virtuoso Romantic Piano, dazzling solo piano, thunderous octaves, lyrical passages, dramatic dynamics, Liszt style, breathtaking and passionate",
+      "style_prompt": "Virtuoso Romantic Piano, dazzling solo piano, thunderous octaves, lyrical passages, dramatic dynamics, 19th-century virtuoso showpiece, breathtaking and passionate",
       "structure": "[Dramatic opening] → [Lyrical theme] → [Virtuoso passage] → [Climax] → [Dazzling coda]",
       "url": "https://musaisong.app/en/style/piano-romantico-virtuoso"
     },
@@ -4037,16 +4037,6 @@
     },
     {
       "style": "Plugg",
-      "family": "Street and Verse",
-      "bpm": 140,
-      "weirdness": 36,
-      "style_influence": 87,
-      "style_prompt": "Plugg, dreamy bell-like synths, bouncy 808s, airy spacious beat, laid-back melodic flow, internet trap subgenre, floaty and futuristic",
-      "structure": "[Intro] → [Verse] → [Hook] → [Verse 2] → [Outro]",
-      "url": "https://musaisong.app/en/style/plugg"
-    },
-    {
-      "style": "Plugg",
       "family": "Asphalt and Diamonds",
       "bpm": 132,
       "weirdness": 56,
@@ -4054,6 +4044,16 @@
       "style_prompt": "Plugg, soft bell melodies, airy pads, bouncy but gentle 808s, relaxed melodic flow, dreamy underground smoothness",
       "structure": "[Bell intro] → [Verse] → [Soft hook] → [Verse 2] → [Hook] → [Floating outro]",
       "url": "https://musaisong.app/en/style/asf-plugg"
+    },
+    {
+      "style": "Plugg",
+      "family": "Street and Verse",
+      "bpm": 140,
+      "weirdness": 36,
+      "style_influence": 87,
+      "style_prompt": "Plugg, dreamy bell-like synths, bouncy 808s, airy spacious beat, laid-back melodic flow, internet trap subgenre, floaty and futuristic",
+      "structure": "[Intro] → [Verse] → [Hook] → [Verse 2] → [Outro]",
+      "url": "https://musaisong.app/en/style/plugg"
     },
     {
       "style": "Plunderphonics",
@@ -4071,7 +4071,7 @@
       "bpm": 76,
       "weirdness": 22,
       "style_influence": 95,
-      "style_prompt": "Symphonic Poem, programmatic orchestra, evolving themes depicting a story, lush dramatic dynamics, Strauss-Liszt style, vivid and grand",
+      "style_prompt": "Symphonic Poem, programmatic orchestra, evolving themes depicting a story, lush dramatic dynamics, late-Romantic tone poem, vivid and grand",
       "structure": "[Character theme] → [Transformation] → [Conflict] → [Climax] → [Narrative resolution]",
       "url": "https://musaisong.app/en/style/poema-sinfonico"
     },
@@ -4317,16 +4317,6 @@
     },
     {
       "style": "Quiet Storm",
-      "family": "Rain Romance",
-      "bpm": 68,
-      "weirdness": 26,
-      "style_influence": 92,
-      "style_prompt": "Quiet Storm, smooth saxophone, lush synth pads, soft electric piano, mellow seductive vocals, late-night soul radio, silky and warm",
-      "structure": "[Intro] sax → [Verse] → [Chorus] → [Instrumental] sax → [Final Chorus]",
-      "url": "https://musaisong.app/en/style/quiet-storm"
-    },
-    {
-      "style": "Quiet Storm",
       "family": "Asphalt and Diamonds",
       "bpm": 72,
       "weirdness": 16,
@@ -4334,6 +4324,16 @@
       "style_prompt": "Quiet Storm, whispered sensual vocals, smooth saxophone, silky Rhodes, slow simmering groove, midnight FM radio romance",
       "structure": "[Sax intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Sax solo] → [Whispered final chorus]",
       "url": "https://musaisong.app/en/style/asf-quiet-storm"
+    },
+    {
+      "style": "Quiet Storm",
+      "family": "Rain Romance",
+      "bpm": 68,
+      "weirdness": 26,
+      "style_influence": 92,
+      "style_prompt": "Quiet Storm, smooth saxophone, lush synth pads, soft electric piano, mellow seductive vocals, late-night soul radio, silky and warm",
+      "structure": "[Intro] sax → [Verse] → [Chorus] → [Instrumental] sax → [Final Chorus]",
+      "url": "https://musaisong.app/en/style/quiet-storm"
     },
     {
       "style": "R&B Ballad",
@@ -4521,7 +4521,7 @@
       "bpm": 58,
       "weirdness": 22,
       "style_influence": 97,
-      "style_prompt": "Requiem, full choir and orchestra, dramatic Latin mass for the dead, powerful Dies Irae, mournful Lacrimosa, Mozart-Verdi style, devastating and sublime",
+      "style_prompt": "Requiem, full choir and orchestra, dramatic Latin mass for the dead, powerful Dies Irae, mournful Lacrimosa, Classical-to-Romantic requiem tradition, devastating and sublime",
       "structure": "[Requiem aeternam] → [Dies Irae] fierce → [Lacrimosa] sorrowful → [Sanctus] → [Lux aeterna]",
       "url": "https://musaisong.app/en/style/requiem"
     },
@@ -4681,7 +4681,7 @@
       "bpm": 80,
       "weirdness": 22,
       "style_influence": 95,
-      "style_prompt": "Golden-Age Film Score, sweeping orchestra, heroic leitmotifs, lush romantic strings, brass fanfares, classic Hollywood style, grand and emotional",
+      "style_prompt": "Golden-Age Film Score, sweeping orchestra, heroic leitmotifs, lush romantic strings, brass fanfares, 1940s golden-age studio orchestra, grand and emotional",
       "structure": "[Main Theme] → [Development] → [Romantic Theme] → [Heroic Climax] → [Resolution]",
       "url": "https://musaisong.app/en/style/score-cinematografico-clasico"
     },
@@ -4881,7 +4881,7 @@
       "bpm": 88,
       "weirdness": 16,
       "style_influence": 96,
-      "style_prompt": "Classical Sonata, solo piano, balanced elegant themes, clear classical structure, Mozart-Beethoven style, graceful and precise",
+      "style_prompt": "Classical Sonata, solo piano, balanced elegant themes, clear classical structure, late-18th-century Viennese Classical style, graceful and precise",
       "structure": "[Exposition] theme A and B → [Development] → [Recapitulation] → [Coda]",
       "url": "https://musaisong.app/en/style/sonata-clasica"
     },
@@ -4931,7 +4931,7 @@
       "bpm": 75,
       "weirdness": 16,
       "style_influence": 97,
-      "style_prompt": "Classic Soul, Motown-style, warm organ, horn section, tight rhythm section, heartfelt powerful vocals, 60s soul romance, warm and timeless",
+      "style_prompt": "Classic Soul, 60s Detroit soul sound, warm organ, horn section, tight rhythm section, heartfelt powerful vocals, 60s soul romance, warm and timeless",
       "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Bridge] gospel → [Final chorus with ad-libs]",
       "url": "https://musaisong.app/en/style/soul-clasico"
     },
@@ -5091,7 +5091,7 @@
       "bpm": 84,
       "weirdness": 22,
       "style_influence": 95,
-      "style_prompt": "Orchestral Suite, full orchestra, contrasting movements depicting scenes or planets, vivid colorful orchestration, Holst-Grieg style, grand and imaginative",
+      "style_prompt": "Orchestral Suite, full orchestra, contrasting movements depicting scenes or planets, vivid colorful orchestration, late-Romantic programmatic suite, grand and imaginative",
       "structure": "[Movement I] → [Movement II] contrasting → [Movement III] → [Finale] grand",
       "url": "https://musaisong.app/en/style/suite-orquestal"
     },
@@ -5111,7 +5111,7 @@
       "bpm": 124,
       "weirdness": 16,
       "style_influence": 94,
-      "style_prompt": "Surf Pop, jangly reverb guitars, sunny harmonies, bright drums, carefree Beach Boys vocals, 60s California summer, nostalgic and joyful",
+      "style_prompt": "Surf Pop, jangly reverb guitars, sunny harmonies, bright drums, carefree stacked falsetto harmonies, 60s California summer, nostalgic and joyful",
       "structure": "[Guitar intro] → [Verse] → [Chorus harmonies] → [Verse 2] → [Final Chorus]",
       "url": "https://musaisong.app/en/style/surf-pop"
     },
@@ -5481,7 +5481,7 @@
       "bpm": 90,
       "weirdness": 14,
       "style_influence": 96,
-      "style_prompt": "Viennese Waltz, lilting strings, elegant 3/4 rhythm, sweeping melody, Strauss style, graceful and grand",
+      "style_prompt": "Viennese Waltz, lilting strings, elegant 3/4 rhythm, sweeping melody, 19th-century Viennese ballroom, graceful and grand",
       "structure": "[Intro] → [Waltz A] → [Waltz B] → [Waltz A] → [Coda] brilliant",
       "url": "https://musaisong.app/en/style/vals-vienes"
     },
@@ -5571,7 +5571,7 @@
       "bpm": 80,
       "weirdness": 36,
       "style_influence": 92,
-      "style_prompt": "Cinematic World Fusion, ethnic instruments (duduk, frame drum, vocals from many cultures), ambient pads, ethereal global vocals, Dead Can Dance style, mystical and vast",
+      "style_prompt": "Cinematic World Fusion, ethnic instruments (duduk, frame drum, vocals from many cultures), ambient pads, ethereal global vocals, neoclassical darkwave world fusion, mystical and vast",
       "structure": "[Atmospheric Drone] → [ethnic vocal] → [percussion enters] → [global climax] → [dissolution]",
       "url": "https://musaisong.app/en/style/world-fusion-cinematica"
     },
@@ -5621,7 +5621,7 @@
       "bpm": 120,
       "weirdness": 64,
       "style_influence": 90,
-      "style_prompt": "Zeuhl, militaristic repetitive bass, operatic chanting choir, jazz-fusion intensity, invented-language vocals, Magma style, hypnotic and ominous",
+      "style_prompt": "Zeuhl, militaristic repetitive bass, operatic chanting choir, jazz-fusion intensity, invented-language vocals, 70s French avant-prog intensity, hypnotic and ominous",
       "structure": "[Bass ostinato] → [Invoking choir] → [Acceleration] → [Martial climax] → [Final trance]",
       "url": "https://musaisong.app/en/style/zeuhl"
     },
