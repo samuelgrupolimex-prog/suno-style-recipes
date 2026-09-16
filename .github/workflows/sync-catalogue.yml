@@ -1,7 +1,7 @@
 name: Sync catalogue
 
 # Pulls the full CC0 catalogue from the public MUSAI endpoint, normalises it and
-# publishes it in four formats. Runs on demand and weekly, so no file drifts.
+# publishes it in four formats plus the genre map. Runs on demand and weekly, so no file drifts.
 #
 # The one correction applied here: nine styles are free-time and the source emits
 # BPM 0 for them. Zero is not "no tempo", it is a false number that sinks any
@@ -29,7 +29,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install build deps
-        run: python -m pip install --quiet pandas pyarrow
+        run: python -m pip install --quiet pandas pyarrow matplotlib
 
       - name: Configure git
         run: |
@@ -107,8 +107,11 @@ jobs:
           PY
           rm -f raw.csv raw_table.md
 
+      - name: Render genre map
+        run: python3 scripts/genre_map.py
+
       - name: Commit
         run: |
-          git add styles.csv styles.json styles.parquet STYLES.md
+          git add styles.csv styles.json styles.parquet STYLES.md assets/genre-map.png assets/genre-map.svg
           git diff --staged --quiet || git commit -m "Sync catalogue: $ROWS styles in CSV, JSON, Parquet and Markdown"
           git push
