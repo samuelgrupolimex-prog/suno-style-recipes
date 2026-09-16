@@ -1,0 +1,36 @@
+name: Settings correction
+description: You found BPM / Weirdness / Style Influence values that hold a genre better.
+title: "[correction] <style name>"
+labels: ["correction"]
+body:
+  - type: input
+    id: style
+    attributes:
+      label: Style
+      description: Exactly as it appears in STYLES.md or styles.csv.
+      placeholder: Bolero Clásico
+    validations:
+      required: true
+  - type: input
+    id: numbers
+    attributes:
+      label: The numbers you used
+      description: BPM / Weirdness / Style Influence
+      placeholder: "72 / 10 / 99"
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed in the output
+      description: '"Held the genre through the bridge instead of drifting to pop" is useful. "Sounded better" is not.'
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model and date
+      description: Suno or Udio, which version, when. These models change month to month.
+      placeholder: "Suno v5 · 2026-09"
+    validations:
+      required: true
