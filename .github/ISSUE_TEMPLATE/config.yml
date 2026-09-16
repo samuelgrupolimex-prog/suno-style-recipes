@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/samuelgrupolimex-prog/suno-style-recipes/discussions
+    about: How to use a style, what a setting does, what to add next.
+  - name: Full style pages (structure, craft note, sample)
+    url: https://musaisong.app/en/styles
+    about: Every row links to its full page.
