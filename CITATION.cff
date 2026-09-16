@@ -8,6 +8,7 @@ authors:
 license: CC0-1.0
 version: "1.2.0"
 date-released: "2026-09-16"
+doi: 10.5281/zenodo.22788085
 repository-code: "https://github.com/samuelgrupolimex-prog/suno-style-recipes"
 url: "https://musaisong.app/en/styles"
 keywords: [suno, udio, ai-music, style-prompts, music-genres, dataset]
