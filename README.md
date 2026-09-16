@@ -196,6 +196,18 @@ Two write-ups read the corpus as data rather than as a lookup table:
 
 Each style also has a full page carrying its structure, a craft note on how its lyrics behave, and a sample excerpt: <https://musaisong.app/en/styles>
 
+## Want the lyrics written for you?
+
+This catalogue gives you the sound. The product it comes from, MUSAI, writes the words: original lyrics built from your own story, in the voice of any of these 564 styles, plus the Suno-ready style recipe and a numbered illustrated plate with a public record.
+
+**Disclosure:** MUSAI is mine and it is paid. Everything above this section stays public domain (CC0).
+
+- **1 lyric a month — $5** — https://buy.stripe.com/9B6fZj4Z12Jy6m3d2p3wQ03
+- **10 lyrics a month — $15** — https://buy.stripe.com/8x25kFbnp3NC4dVaUh3wQ05
+- **50 lyrics a month — $39** — https://buy.stripe.com/fZuaEZ2QTgAocKr4vT3wQ06
+
+Cancel anytime. If a lyric fails, that lyric is redone or refunded. MUSAI writes the lyrics and the style recipe — it does not generate the audio.
+
 ## Contributing
 
 Found a setting that works better? Open an issue with the style, the numbers you used and what changed. Corrections welcome.
@@ -203,6 +215,3 @@ Found a setting that works better? Open an issue with the style, the numbers you
 ## License
 
 Everything in this repo — the table in this README, `STYLES.md`, `styles.csv`, `styles.json` and `styles.parquet` — is released under CC0 1.0, public domain. Use it anywhere, no attribution required.
-
-The catalogue is free of charge and always will be. The lyric-writing tool it
-came from is a paid monthly subscription, from $5: <https://musaisong.app/planes>
