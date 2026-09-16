@@ -1,0 +1,31 @@
+name: Propose a style
+description: A genre the catalogue does not document yet.
+title: "[new style] <style name>"
+labels: ["new-style"]
+body:
+  - type: input
+    id: style
+    attributes:
+      label: Style name
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Style prompt you used
+      description: Comma-separated tags. Describe the sound, never an artist — Suno rejects artist names.
+    validations:
+      required: true
+  - type: input
+    id: numbers
+    attributes:
+      label: BPM / Weirdness / Style Influence
+      placeholder: "140 / 30 / 92"
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model and date
+    validations:
+      required: true
