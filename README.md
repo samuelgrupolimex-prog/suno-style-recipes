@@ -213,7 +213,7 @@ Each style also has a full page carrying its structure, a craft note on how its 
 
 ## Want the lyrics written for you?
 
-This catalogue gives you the sound. The product it comes from, MUSAI, writes the words: original lyrics built from your own story, in the voice of any of these 564 styles, plus the Suno-ready style recipe and a numbered illustrated plate with a public record.
+This table gives you the sound. If you also want the words and the finished song — original lyrics written from your own story, the sung track ready to play and download, plus a numbered illustrated plate with a public record — that's what I built MUSAI for.
 
 **Disclosure:** MUSAI is mine and it is paid. Everything above this section stays public domain (CC0).
 
@@ -221,7 +221,7 @@ This catalogue gives you the sound. The product it comes from, MUSAI, writes the
 - **10 lyrics a month — $15** — https://buy.stripe.com/8x25kFbnp3NC4dVaUh3wQ05
 - **50 lyrics a month — $39** — https://buy.stripe.com/fZuaEZ2QTgAocKr4vT3wQ06
 
-Cancel anytime. If a lyric fails, that lyric is redone or refunded. MUSAI writes the lyrics and the style recipe — it does not generate the audio.
+The 1- and 10-lyric packs are one-time and never expire; 50 lyrics a month is a subscription you can cancel anytime. If a lyric fails, that lyric is redone or refunded. MUSAI writes the lyrics and delivers the sung song; the style recipe below is the open, public-domain layer.
 
 ## Contributing
 
