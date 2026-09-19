@@ -211,6 +211,16 @@ Three write-ups read the corpus as data rather than as a lookup table:
 
 Each style also has a full page carrying its structure, a craft note on how its lyrics behave, and a sample excerpt: <https://musaisong.app/en/styles>
 
+## Where this data comes from
+
+This catalogue is the reference layer behind [MUSAI](https://musaisong.app/en) — it writes original lyrics from a personal story and delivers the finished sung song, plus the style recipe above and a numbered illustrated art plate with a public record.
+
+The data here is CC0 and open to use on its own. If you want the words written for you:
+
+- All 564 documented styles → https://musaisong.app/en/styles
+- A finished example → https://musaisong.app/example/the-trowel-and-the-sword
+- Lyrics + sung song, from $5 → https://musaisong.app/en/plans
+
 ## Want the lyrics written for you?
 
 This table gives you the sound. If you also want the words and the finished song — original lyrics written from your own story, the sung track ready to play and download, plus a numbered illustrated plate with a public record — that's what I built MUSAI for.
