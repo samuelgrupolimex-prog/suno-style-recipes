@@ -12,8 +12,6 @@
 
 **Try it in 30 seconds:** open the notebook in Colab, type a genre, get its prompt and settings — or give it a Weirdness / Style Influence pair and it returns the ten genres that live there.
 
-If this saves you an afternoon of trial and error, a ⭐ helps other Suno users find it.
-
 A reference catalogue of 564 music styles formatted for AI music generators (Suno, Udio). Each row gives the **style prompt** you paste into the "Style of Music" field, plus the three generation settings that actually change the output: **BPM**, **Weirdness** and **Style Influence**.
 
 All 564 are in this repo, four ways:
