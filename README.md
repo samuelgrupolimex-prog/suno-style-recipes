@@ -227,6 +227,7 @@ This table gives you the sound. If you also want the words and the finished song
 
 **Disclosure:** MUSAI is mine and it is paid. Everything above this section stays public domain (CC0).
 
+- Launch week: the first 10 people who use code MUSAI-ESTRENO on the 1-song link get it as a courtesy song.
 - **1 lyric — $5, one-time** — https://buy.stripe.com/dRm00ldvx97WcKr8M93wQ07
 - **10 lyrics — $15, one-time** — https://buy.stripe.com/3cIeVf2QT6ZOfWDbYl3wQ08
 - **50 lyrics a month — $39** — https://buy.stripe.com/fZuaEZ2QTgAocKr4vT3wQ06
