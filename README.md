@@ -1,4 +1,4 @@
-# Suno Style Recipes — 564 documented music styles with BPM, weirdness and style influence
+# Suno Style Recipes by MUSAI Song — 564 documented music styles with BPM, weirdness and style influence
 
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0%201.0-3B2A8C)](LICENSE)
 [![Styles](https://img.shields.io/badge/styles-564-6D4AFF)](STYLES.md)
@@ -27,7 +27,7 @@ Nine of the 564 are free-time and carry no BPM: the cell is empty in the CSV, `n
 
 The 59 in the README below are the annotated subset: same numbers, plus a craft note on the one writing problem each genre creates. Every style also has a full page with its canonical song structure and a sample excerpt: <https://musaisong.app/en/styles?ref=github>
 
-**Disclosure:** I built and maintain the catalogue these come from — all 564 styles are open (CC0). What MUSAI sells is the finished song, written from your idea or story.
+**Disclosure:** I built and maintain the catalogue these come from — all 564 styles are open (CC0). What MUSAI Song sells is the finished song, written from your idea or story.
 
 The table gives you the sound. The section "What the numbers don't tell you" gives you the part that decides whether the lyric works — one specific writing problem per style.
 
@@ -211,7 +211,7 @@ Each style also has a full page carrying its structure, a craft note on how its 
 
 ## Where this data comes from
 
-This catalogue is the reference layer behind [MUSAI](https://musaisong.app/en?ref=github) — it writes original lyrics from a personal story and delivers the finished sung song, plus the style recipe above and a numbered illustrated art plate with a public record.
+This catalogue is the reference layer behind [MUSAI Song](https://musaisong.app/en?ref=github) — it writes original lyrics from a personal story and delivers the finished sung song, plus the style recipe above and a numbered illustrated art plate with a public record.
 
 The data here is CC0 and open to use on its own. If you want the words written for you:
 
@@ -221,7 +221,7 @@ The data here is CC0 and open to use on its own. If you want the words written f
 
 ## Want the finished song made for you?
 
-This table gives you the sound. If you want the whole song — original lyrics written from your idea or story in any of these 564 styles, **sung and delivered**, with the style recipe and a numbered illustrated art plate with a public record you can link to — that's what I built MUSAI for.
+This table gives you the sound. If you want the whole song — original lyrics written from your idea or story in any of these 564 styles, **sung and delivered**, with the style recipe and a numbered illustrated art plate with a public record you can link to — that's what I built MUSAI Song for.
 
 - **1 song — $5** — https://buy.stripe.com/dRm00ldvx97WcKr8M93wQ07
 - **10 songs — $15** — https://buy.stripe.com/3cIeVf2QT6ZOfWDbYl3wQ08
