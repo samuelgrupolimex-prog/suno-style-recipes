@@ -406,6 +406,16 @@
       "url": "https://musaisong.app/en/style/balada-i-want"
     },
     {
+      "style": "Balada Country de Rocola",
+      "family": "Dust and Highway",
+      "bpm": 68,
+      "weirdness": 14,
+      "style_influence": 90,
+      "style_prompt": "Country Ballad, tender emotional vocals, weeping pedal steel, soft piano, slow 6/8 sway, heartfelt confession, tears-on-the-jukebox",
+      "structure": "[Steel Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Bridge] → [Soft Final Chorus]",
+      "url": "https://musaisong.app/en/style/plv-country-ballad"
+    },
+    {
       "style": "Balada de Boda",
       "family": "Ballads That Break the Sky",
       "bpm": 70,
@@ -547,16 +557,6 @@
     },
     {
       "style": "Bedroom Pop",
-      "family": "Summer Sun",
-      "bpm": 100,
-      "weirdness": 30,
-      "style_influence": 90,
-      "style_prompt": "Bedroom Pop, lo-fi warm production, soft synths, jangly guitar, intimate dreamy vocals, DIY indie-pop, cozy and sunny-hazy",
-      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Soft outro]",
-      "url": "https://musaisong.app/en/style/bedroom-pop-sol-de-verano"
-    },
-    {
-      "style": "Bedroom Pop",
       "family": "Fog and Nostalgia",
       "bpm": 105,
       "weirdness": 36,
@@ -564,6 +564,16 @@
       "style_prompt": "Bedroom Pop, lo-fi warm guitars and synths, soft drum machine, intimate hazy vocals, homemade dreamy production, cozy and wistful",
       "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Outro] soft",
       "url": "https://musaisong.app/en/style/bedroom-pop"
+    },
+    {
+      "style": "Bedroom Pop Soleado",
+      "family": "Summer Sun",
+      "bpm": 100,
+      "weirdness": 30,
+      "style_influence": 90,
+      "style_prompt": "Bedroom Pop, lo-fi warm production, soft synths, jangly guitar, intimate dreamy vocals, DIY indie-pop, cozy and sunny-hazy",
+      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Soft outro]",
+      "url": "https://musaisong.app/en/style/bedroom-pop-sol-de-verano"
     },
     {
       "style": "Bedroom R&B",
@@ -647,16 +657,6 @@
     },
     {
       "style": "Bluegrass",
-      "family": "Dust and Highway",
-      "bpm": 140,
-      "weirdness": 25,
-      "style_influence": 92,
-      "style_prompt": "Bluegrass, lightning banjo rolls, fiddle, mandolin chop, upright bass, high lonesome harmonies, Appalachian energy, virtuosic acoustic",
-      "structure": "[Instrumental Intro] → [Verse] → [Chorus] → [Banjo Solo] → [Verse 2] → [Fiddle Solo] → [Final Chorus]",
-      "url": "https://musaisong.app/en/style/plv-bluegrass"
-    },
-    {
-      "style": "Bluegrass",
       "family": "Roots That Hold Fast",
       "bpm": 165,
       "weirdness": 16,
@@ -664,6 +664,16 @@
       "style_prompt": "Bluegrass, banjo, fiddle, mandolin, upright bass, high lonesome harmony vocals, Appalachian American folk, fast and virtuosic",
       "structure": "[Intro] banjo → [Verse] → [Chorus] harmonies → [Breakdown] trading solos → [Final chorus]",
       "url": "https://musaisong.app/en/style/bluegrass"
+    },
+    {
+      "style": "Bluegrass de Montaña",
+      "family": "Dust and Highway",
+      "bpm": 140,
+      "weirdness": 25,
+      "style_influence": 92,
+      "style_prompt": "Bluegrass, lightning banjo rolls, fiddle, mandolin chop, upright bass, high lonesome harmonies, Appalachian energy, virtuosic acoustic",
+      "structure": "[Instrumental Intro] → [Verse] → [Chorus] → [Banjo Solo] → [Verse 2] → [Fiddle Solo] → [Final Chorus]",
+      "url": "https://musaisong.app/en/style/plv-bluegrass"
     },
     {
       "style": "Blues Clásico",
@@ -1156,9 +1166,9 @@
       "url": "https://musaisong.app/en/style/cloud-rap"
     },
     {
-      "style": "Cloud Rap",
+      "style": "Cloud Rap Lo-Fi",
       "family": "Asphalt and Diamonds",
-      "bpm": 126,
+      "bpm": 66,
       "weirdness": 58,
       "style_influence": 78,
       "style_prompt": "Cloud Rap, dreamy washed-out synths, hazy reverb vocals, floating melody, lo-fi drums, ethereal internet-era vibe",
@@ -1197,16 +1207,6 @@
     },
     {
       "style": "Conscious Hip-Hop",
-      "family": "Asphalt and Diamonds",
-      "bpm": 86,
-      "weirdness": 34,
-      "style_influence": 86,
-      "style_prompt": "Conscious Hip-Hop, thoughtful storytelling flow, soulful sample, live bass, powerful message delivery, jazz-tinged introspection",
-      "structure": "[Vocal intro] → [Verse] → [Hook] → [Verse 2] → [Hook] → [Climax verse 3] → [Reflective outro]",
-      "url": "https://musaisong.app/en/style/asf-conscious"
-    },
-    {
-      "style": "Conscious Hip-Hop",
       "family": "Street and Verse",
       "bpm": 88,
       "weirdness": 24,
@@ -1234,16 +1234,6 @@
       "style_prompt": "Corridos Tumbados, Regional Mexicano moderno, requinto guitar lead, charchetas, tololoche bass, trombones, relaxed confident young male vocals, acoustic urban fusion",
       "structure": "[Intro] requinto solo → relaxed [Verse] → [Verse 2] → memorable [Chorus] → [Verse 3] → [Chorus] → requinto outro",
       "url": "https://musaisong.app/en/style/corrido-tumbado"
-    },
-    {
-      "style": "Country Ballad",
-      "family": "Dust and Highway",
-      "bpm": 68,
-      "weirdness": 14,
-      "style_influence": 90,
-      "style_prompt": "Country Ballad, tender emotional vocals, weeping pedal steel, soft piano, slow 6/8 sway, heartfelt confession, tears-on-the-jukebox",
-      "structure": "[Steel Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Bridge] → [Soft Final Chorus]",
-      "url": "https://musaisong.app/en/style/plv-country-ballad"
     },
     {
       "style": "Country Ballad",
@@ -1468,7 +1458,7 @@
     {
       "style": "Dark Ambient / Sound Art",
       "family": "The Edge of the Map",
-      "bpm": null,
+      "bpm": 60,
       "weirdness": 66,
       "style_influence": 91,
       "style_prompt": "Dark Ambient, ominous low drones, cavernous reverb, distant metallic echoes, unsettling textures, sound-art atmosphere, eerie and immersive",
@@ -1616,9 +1606,9 @@
       "url": "https://musaisong.app/en/style/dirty-south"
     },
     {
-      "style": "Dirty South",
+      "style": "Dirty South de Atlanta",
       "family": "Asphalt and Diamonds",
-      "bpm": 136,
+      "bpm": 68,
       "weirdness": 32,
       "style_influence": 85,
       "style_prompt": "Dirty South, heavy swampy 808s, chant-along hook, southern drawl flow, strip-club bounce, Atlanta heat energy",
@@ -1736,7 +1726,7 @@
       "url": "https://musaisong.app/en/style/drill"
     },
     {
-      "style": "Drill",
+      "style": "Drill Helado",
       "family": "Asphalt and Diamonds",
       "bpm": 142,
       "weirdness": 32,
@@ -1758,7 +1748,7 @@
     {
       "style": "Drone Experimental",
       "family": "The Edge of the Map",
-      "bpm": null,
+      "bpm": 50,
       "weirdness": 70,
       "style_influence": 91,
       "style_prompt": "Experimental Drone, sustained evolving tones, microtonal beating, dense harmonic layers, slow transformation, deep listening, immersive and vast",
@@ -1848,7 +1838,7 @@
     {
       "style": "Electroacústica",
       "family": "The Edge of the Map",
-      "bpm": null,
+      "bpm": 60,
       "weirdness": 72,
       "style_influence": 91,
       "style_prompt": "Electroacoustic Composition, processed acoustic instruments, spatial electronics, dramatic dynamic contrasts, academic avant-garde, sculptural and intense",
@@ -1896,9 +1886,9 @@
       "url": "https://musaisong.app/en/style/emo-rap"
     },
     {
-      "style": "Emo Rap",
+      "style": "Emo Rap de Cuarto",
       "family": "Asphalt and Diamonds",
-      "bpm": 120,
+      "bpm": 80,
       "weirdness": 42,
       "style_influence": 82,
       "style_prompt": "Emo Rap, melancholic guitar loop, trap drums, pained melodic vocals, raw confessional lyrics, bedroom sadness energy",
@@ -2557,16 +2547,6 @@
     },
     {
       "style": "Heartland Rock",
-      "family": "Dust and Highway",
-      "bpm": 122,
-      "weirdness": 18,
-      "style_influence": 89,
-      "style_prompt": "Heartland Rock, passionate raspy vocals, jangling guitars, glockenspiel, driving drums, working-class anthem, 80s American heartland spirit",
-      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Bridge] → [Epic final chorus]",
-      "url": "https://musaisong.app/en/style/plv-heartland-rock"
-    },
-    {
-      "style": "Heartland Rock",
       "family": "Electric Roads",
       "bpm": 122,
       "weirdness": 22,
@@ -2574,6 +2554,16 @@
       "style_prompt": "Heartland Rock, anthemic guitars, piano, organ, gravelly earnest vocals, working-class storytelling, American roots rock, warm and rousing",
       "structure": "[Intro] → [Verse] → [Anthemic Chorus] → [Verse 2] → [Solo] → [Final Chorus]",
       "url": "https://musaisong.app/en/style/heartland-rock"
+    },
+    {
+      "style": "Heartland Rock Ochentero",
+      "family": "Dust and Highway",
+      "bpm": 122,
+      "weirdness": 18,
+      "style_influence": 89,
+      "style_prompt": "Heartland Rock, passionate raspy vocals, jangling guitars, glockenspiel, driving drums, working-class anthem, 80s American heartland spirit",
+      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Bridge] → [Epic final chorus]",
+      "url": "https://musaisong.app/en/style/plv-heartland-rock"
     },
     {
       "style": "Heavy Metal",
@@ -2684,6 +2674,16 @@
       "style_prompt": "Confessional Hip-Hop, melancholic piano and soul sample, soft 808s, vulnerable introspective flow, emotional honest delivery, raw and intimate",
       "structure": "[Intro] piano → [Verse 1] → [Hook] → [Verse 2] → [Hook] → [Verse 3] → outro",
       "url": "https://musaisong.app/en/style/hiphop-confesional"
+    },
+    {
+      "style": "Hip-Hop Introspectivo",
+      "family": "Asphalt and Diamonds",
+      "bpm": 86,
+      "weirdness": 34,
+      "style_influence": 86,
+      "style_prompt": "Conscious Hip-Hop, thoughtful storytelling flow, soulful sample, live bass, powerful message delivery, jazz-tinged introspection",
+      "structure": "[Vocal intro] → [Verse] → [Hook] → [Verse 2] → [Hook] → [Climax verse 3] → [Reflective outro]",
+      "url": "https://musaisong.app/en/style/asf-conscious"
     },
     {
       "style": "Hip-Hop Love Song",
@@ -3588,7 +3588,7 @@
     {
       "style": "Musique Concrète",
       "family": "The Edge of the Map",
-      "bpm": null,
+      "bpm": 72,
       "weirdness": 74,
       "style_influence": 92,
       "style_prompt": "Musique Concrète, manipulated tape recordings of real-world sounds, spliced field recordings, abstract sound sculpture, pioneering electroacoustic, eerie and inventive",
@@ -3627,16 +3627,6 @@
     },
     {
       "style": "Neo-Soul",
-      "family": "Asphalt and Diamonds",
-      "bpm": 92,
-      "weirdness": 30,
-      "style_influence": 88,
-      "style_prompt": "Neo-Soul, warm Rhodes chords, pocket groove drums, soulful expressive vocals, jazzy extensions, organic live feel, incense warmth",
-      "structure": "[Rhodes intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Instrumental jam] → [Final chorus]",
-      "url": "https://musaisong.app/en/style/asf-neo-soul"
-    },
-    {
-      "style": "Neo-Soul",
       "family": "Rain Romance",
       "bpm": 82,
       "weirdness": 38,
@@ -3644,6 +3634,16 @@
       "style_prompt": "Neo-Soul, warm Rhodes piano, jazzy chords, loose live drums, rich melismatic vocals, organic and soulful, modern soul romance",
       "structure": "[Intro] Rhodes → [Verse] → [Chorus] → [Verse 2] → [Bridge] jazzy → [Final Chorus]",
       "url": "https://musaisong.app/en/style/neo-soul"
+    },
+    {
+      "style": "Neo-Soul de Incienso",
+      "family": "Asphalt and Diamonds",
+      "bpm": 92,
+      "weirdness": 30,
+      "style_influence": 88,
+      "style_prompt": "Neo-Soul, warm Rhodes chords, pocket groove drums, soulful expressive vocals, jazzy extensions, organic live feel, incense warmth",
+      "structure": "[Rhodes intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Instrumental jam] → [Final chorus]",
+      "url": "https://musaisong.app/en/style/asf-neo-soul"
     },
     {
       "style": "Neoclasicismo",
@@ -3967,16 +3967,6 @@
     },
     {
       "style": "Phonk",
-      "family": "Asphalt and Diamonds",
-      "bpm": 134,
-      "weirdness": 54,
-      "style_influence": 82,
-      "style_prompt": "Phonk, distorted cowbell melody, Memphis vocal samples, lo-fi bass distortion, drift-night energy, dark hypnotic loop",
-      "structure": "[Intro] → [Verse] → [Cowbell drop] → [Verse 2] → [Drop] → [Drift outro]",
-      "url": "https://musaisong.app/en/style/asf-phonk"
-    },
-    {
-      "style": "Phonk",
       "family": "Street and Verse",
       "bpm": 130,
       "weirdness": 30,
@@ -3984,6 +3974,16 @@
       "style_prompt": "Phonk, distorted cowbell, lo-fi Memphis rap vocal chops, heavy 808s, dark menacing atmosphere, drift-racing energy, gritty and hypnotic",
       "structure": "[Intro] → [Drop] cowbell → [Verse chops] → [Drop] → [Outro]",
       "url": "https://musaisong.app/en/style/phonk"
+    },
+    {
+      "style": "Phonk de Memphis",
+      "family": "Asphalt and Diamonds",
+      "bpm": 134,
+      "weirdness": 54,
+      "style_influence": 82,
+      "style_prompt": "Phonk, distorted cowbell melody, Memphis vocal samples, lo-fi bass distortion, drift-night energy, dark hypnotic loop",
+      "structure": "[Intro] → [Verse] → [Cowbell drop] → [Verse 2] → [Drop] → [Drift outro]",
+      "url": "https://musaisong.app/en/style/asf-phonk"
     },
     {
       "style": "Piano Ballad",
@@ -4037,16 +4037,6 @@
     },
     {
       "style": "Plugg",
-      "family": "Asphalt and Diamonds",
-      "bpm": 132,
-      "weirdness": 56,
-      "style_influence": 78,
-      "style_prompt": "Plugg, soft bell melodies, airy pads, bouncy but gentle 808s, relaxed melodic flow, dreamy underground smoothness",
-      "structure": "[Bell intro] → [Verse] → [Soft hook] → [Verse 2] → [Hook] → [Floating outro]",
-      "url": "https://musaisong.app/en/style/asf-plugg"
-    },
-    {
-      "style": "Plugg",
       "family": "Street and Verse",
       "bpm": 140,
       "weirdness": 36,
@@ -4054,6 +4044,16 @@
       "style_prompt": "Plugg, dreamy bell-like synths, bouncy 808s, airy spacious beat, laid-back melodic flow, internet trap subgenre, floaty and futuristic",
       "structure": "[Intro] → [Verse] → [Hook] → [Verse 2] → [Outro]",
       "url": "https://musaisong.app/en/style/plugg"
+    },
+    {
+      "style": "Pluggnb",
+      "family": "Asphalt and Diamonds",
+      "bpm": 132,
+      "weirdness": 56,
+      "style_influence": 78,
+      "style_prompt": "Plugg, soft bell melodies, airy pads, bouncy but gentle 808s, relaxed melodic flow, dreamy underground smoothness",
+      "structure": "[Bell intro] → [Verse] → [Soft hook] → [Verse 2] → [Hook] → [Floating outro]",
+      "url": "https://musaisong.app/en/style/asf-plugg"
     },
     {
       "style": "Plunderphonics",
@@ -4317,16 +4317,6 @@
     },
     {
       "style": "Quiet Storm",
-      "family": "Asphalt and Diamonds",
-      "bpm": 72,
-      "weirdness": 16,
-      "style_influence": 88,
-      "style_prompt": "Quiet Storm, whispered sensual vocals, smooth saxophone, silky Rhodes, slow simmering groove, midnight FM radio romance",
-      "structure": "[Sax intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Sax solo] → [Whispered final chorus]",
-      "url": "https://musaisong.app/en/style/asf-quiet-storm"
-    },
-    {
-      "style": "Quiet Storm",
       "family": "Rain Romance",
       "bpm": 68,
       "weirdness": 26,
@@ -4334,6 +4324,16 @@
       "style_prompt": "Quiet Storm, smooth saxophone, lush synth pads, soft electric piano, mellow seductive vocals, late-night soul radio, silky and warm",
       "structure": "[Intro] sax → [Verse] → [Chorus] → [Instrumental] sax → [Final Chorus]",
       "url": "https://musaisong.app/en/style/quiet-storm"
+    },
+    {
+      "style": "Quiet Storm Susurrado",
+      "family": "Asphalt and Diamonds",
+      "bpm": 72,
+      "weirdness": 16,
+      "style_influence": 88,
+      "style_prompt": "Quiet Storm, whispered sensual vocals, smooth saxophone, silky Rhodes, slow simmering groove, midnight FM radio romance",
+      "structure": "[Sax intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Sax solo] → [Whispered final chorus]",
+      "url": "https://musaisong.app/en/style/asf-quiet-storm"
     },
     {
       "style": "R&B Ballad",
@@ -4688,7 +4688,7 @@
     {
       "style": "Señal Sin Nombre",
       "family": "The Edge of the Map",
-      "bpm": null,
+      "bpm": 84,
       "weirdness": 75,
       "style_influence": 95,
       "style_prompt": "Unclassifiable, evolving electronic-organic hybrid, sounds with no genre, a transmission from somewhere not yet mapped, beautiful and strange, the music that does not exist yet",
@@ -4777,16 +4777,6 @@
     },
     {
       "style": "Slow Jam",
-      "family": "Asphalt and Diamonds",
-      "bpm": 64,
-      "weirdness": 18,
-      "style_influence": 89,
-      "style_prompt": "R&B Slow Jam, sultry intimate vocals, slow heavy groove, smooth bass, whispered ad-libs, bedroom candlelight mood",
-      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Whispered bridge] → [Final chorus]",
-      "url": "https://musaisong.app/en/style/asf-slow-jam"
-    },
-    {
-      "style": "Slow Jam",
       "family": "Rain Romance",
       "bpm": 65,
       "weirdness": 22,
@@ -4794,6 +4784,16 @@
       "style_prompt": "Slow Jam, deep bass, soft kicks, lush harmonies, passionate pleading vocals, intimate R&B ballad, slow and sensual",
       "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Bridge] ad-libs → [Final chorus]",
       "url": "https://musaisong.app/en/style/slow-jam"
+    },
+    {
+      "style": "Slow Jam de Velas",
+      "family": "Asphalt and Diamonds",
+      "bpm": 64,
+      "weirdness": 18,
+      "style_influence": 89,
+      "style_prompt": "R&B Slow Jam, sultry intimate vocals, slow heavy groove, smooth bass, whispered ad-libs, bedroom candlelight mood",
+      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Whispered bridge] → [Final chorus]",
+      "url": "https://musaisong.app/en/style/asf-slow-jam"
     },
     {
       "style": "Slowcore",
@@ -4887,16 +4887,6 @@
     },
     {
       "style": "Sophisti-Pop",
-      "family": "Summer Sun",
-      "bpm": 108,
-      "weirdness": 22,
-      "style_influence": 92,
-      "style_prompt": "Sophisti-Pop, smooth jazz-pop chords, sax solos, polished 80s production, suave sophisticated vocals, upscale adult pop, elegant and breezy",
-      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Sax Solo] → [Final Chorus]",
-      "url": "https://musaisong.app/en/style/sophisti-pop-sol-de-verano"
-    },
-    {
-      "style": "Sophisti-Pop",
       "family": "Fog and Nostalgia",
       "bpm": 105,
       "weirdness": 30,
@@ -4904,6 +4894,16 @@
       "style_prompt": "Sophisti-Pop, smooth jazzy chords, lush 80s production, saxophone, polished melancholic vocals, sophisticated 80s pop, elegant and wistful",
       "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Solo] sax → [Final Chorus]",
       "url": "https://musaisong.app/en/style/sophisti-pop"
+    },
+    {
+      "style": "Sophisti-Pop Soleado",
+      "family": "Summer Sun",
+      "bpm": 108,
+      "weirdness": 22,
+      "style_influence": 92,
+      "style_prompt": "Sophisti-Pop, smooth jazz-pop chords, sax solos, polished 80s production, suave sophisticated vocals, upscale adult pop, elegant and breezy",
+      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Sax Solo] → [Final Chorus]",
+      "url": "https://musaisong.app/en/style/sophisti-pop-sol-de-verano"
     },
     {
       "style": "Soukous Congolés",
@@ -4958,22 +4958,12 @@
     {
       "style": "Sound Collage",
       "family": "The Edge of the Map",
-      "bpm": null,
+      "bpm": 90,
       "weirdness": 70,
       "style_influence": 90,
       "style_prompt": "Sound Collage, layered spoken word, field recordings, radio static, juxtaposed audio fragments, tape experiment, surreal and narrative",
       "structure": "[Spoken fragment] → [Field sound layers] → [Narrative juxtaposition] → [Dense climax] → [Silence]",
       "url": "https://musaisong.app/en/style/sound-collage"
-    },
-    {
-      "style": "Southern Rock",
-      "family": "Dust and Highway",
-      "bpm": 118,
-      "weirdness": 24,
-      "style_influence": 88,
-      "style_prompt": "Southern Rock, triple guitar attack, gritty male vocals, Hammond B3, swampy groove, whiskey-soaked swagger, extended guitar solo",
-      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Triple guitar solo] → [Final chorus]",
-      "url": "https://musaisong.app/en/style/plv-southern-rock"
     },
     {
       "style": "Southern Rock",
@@ -4984,6 +4974,16 @@
       "style_prompt": "Southern Rock, dual guitar harmonies, slide guitar, organ, soulful gritty vocals, boogie rhythm, American Southern rock, warm and rowdy",
       "structure": "[Intro] guitars → [Verse] → [Chorus] → [Dual solo] → [Verse 2] → [Final chorus]",
       "url": "https://musaisong.app/en/style/southern-rock"
+    },
+    {
+      "style": "Southern Rock de Tres Guitarras",
+      "family": "Dust and Highway",
+      "bpm": 118,
+      "weirdness": 24,
+      "style_influence": 88,
+      "style_prompt": "Southern Rock, triple guitar attack, gritty male vocals, Hammond B3, swampy groove, whiskey-soaked swagger, extended guitar solo",
+      "structure": "[Intro] → [Verse] → [Chorus] → [Verse 2] → [Chorus] → [Triple guitar solo] → [Final chorus]",
+      "url": "https://musaisong.app/en/style/plv-southern-rock"
     },
     {
       "style": "Space Ambient",
