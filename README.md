@@ -1,6 +1,6 @@
 # Suno Style Recipes by MUSAI Song — 564 documented music styles with BPM, weirdness and style influence
 
-What MUSAI Song sells is a personalized song gift → https://musaisong.app/en/custom-song
+What MUSAI Song sells is a personalized song gift → https://musaisong.app/en
 
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0%201.0-3B2A8C)](LICENSE)
 [![Styles](https://img.shields.io/badge/styles-564-6D4AFF)](STYLES.md)
