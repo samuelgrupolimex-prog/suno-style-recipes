@@ -2,7 +2,7 @@
 
 What MUSAI Song sells is a personalized song gift → https://musaisong.app/en
 
-**En español:** MUSAI Song es una canción personalizada para regalar. Cuentas tu historia y recibes una canción original, con su letra, en español o en inglés: para cumpleaños, Día de las Madres, aniversarios o para reconciliarte con alguien. → https://musaisong.app/
+**En español:** MUSAI Song es una canción personalizada para regalar. Cuentas tu historia y recibes una canción original, con su letra, en español o en inglés: para cumpleaños, Día de las Madres, aniversarios o para reconciliarte con alguien. Los 564 estilos de este repositorio son CC0 1.0 (dominio público). → https://musaisong.app/
 
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0%201.0-3B2A8C)](LICENSE)
 [![Styles](https://img.shields.io/badge/styles-564-6D4AFF)](STYLES.md)
@@ -31,7 +31,7 @@ Nine of the 564 are free-time and carry no BPM: the cell is empty in the CSV, `n
 
 The 59 in the README below are the annotated subset: same numbers, plus a craft note on the one writing problem each genre creates. Every style also has a full page with its canonical song structure and a sample excerpt: <https://musaisong.app/en/styles?ref=github>
 
-**Disclosure:** I built and maintain the catalogue these come from — all 564 styles are open (CC0). What MUSAI Song sells is the finished song, written from your idea or story.
+**Disclosure:** I built and maintain the catalogue these come from — all 564 styles are CC0 1.0 (public domain). What MUSAI Song sells is the finished song, written from your idea or story.
 
 The table gives you the sound. The section "What the numbers don't tell you" gives you the part that decides whether the lyric works — one specific writing problem per style.
 
@@ -217,7 +217,7 @@ Each style also has a full page carrying its structure, a craft note on how its 
 
 This catalogue is the reference layer behind [MUSAI Song](https://musaisong.app/en?ref=github) — it writes original lyrics from a personal story and delivers the finished sung song, plus the style recipe above and a numbered illustrated art plate with a public record.
 
-The data here is CC0 and open to use on its own. If you want the words written for you:
+The data here is CC0 1.0 (public domain) and usable on its own. If you want the words written for you:
 
 - All 564 documented styles → https://musaisong.app/en/styles?ref=github
 - A finished example → https://musaisong.app/example/the-trowel-and-the-sword?ref=github
@@ -241,4 +241,4 @@ Found a setting that works better? Open an issue with the style, the numbers you
 
 ## License
 
-The table in this README and the full catalogue of 564 styles are released under CC0 — public domain.
+The table in this README and the full catalogue of 564 styles are released under CC0 1.0 (public domain).
